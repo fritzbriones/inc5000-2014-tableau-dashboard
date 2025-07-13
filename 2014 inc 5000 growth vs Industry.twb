@@ -1,0 +1,1420 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data Set- Inc5000 Company List_2014' inline='true' name='federated.112frym0ka0a2c1ginc4o1nmpbba' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Set- Inc5000 Company List_2014' name='textscan.03o3tbl06apgl613ms79y0bl5ifa'>
+            <connection class='textscan' directory='C:/Users/ASUS/Downloads' filename='Data Set- Inc5000 Company List_2014.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.03o3tbl06apgl613ms79y0bl5ifa' name='Data Set- Inc5000 Company List_2014.csv' table='[Data Set- Inc5000 Company List_2014#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='_input' ordinal='0' />
+            <column datatype='integer' name='_num' ordinal='1' />
+            <column datatype='string' name='_widgetName' ordinal='2' />
+            <column datatype='string' name='_source' ordinal='3' />
+            <column datatype='integer' name='_resultNumber' ordinal='4' />
+            <column datatype='string' name='_pageUrl' ordinal='5' />
+            <column datatype='integer' name='id' ordinal='6' />
+            <column datatype='integer' name='rank' ordinal='7' />
+            <column datatype='integer' name='workers' ordinal='8' />
+            <column datatype='string' name='company' ordinal='9' />
+            <column datatype='string' name='url' ordinal='10' />
+            <column datatype='string' name='state_l' ordinal='11' />
+            <column datatype='string' name='state_s' ordinal='12' />
+            <column datatype='string' name='city' ordinal='13' />
+            <column datatype='string' name='metro' ordinal='14' />
+            <column datatype='real' name='growth' ordinal='15' />
+            <column datatype='integer' name='revenue' ordinal='16' />
+            <column datatype='string' name='industry' ordinal='17' />
+            <column datatype='integer' name='yrs_on_list' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_input</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_input]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_input</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_num</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_num]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_num</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_widgetName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_widgetName]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_widgetName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_source]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_resultNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_resultNumber]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_resultNumber</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_pageUrl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_pageUrl]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_pageUrl</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[workers]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>workers</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>company</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state_l]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>state_l</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_s</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state_s]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>state_s</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metro</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[metro]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>metro</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[growth]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>growth</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yrs_on_list</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yrs_on_list]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>yrs_on_list</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Data Set- Inc5000 Company List_2014.csv' datatype='table' name='[__tableau_internal_object_id__].[Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9]' role='measure' type='quantitative' />
+      <column caption='_Input' datatype='string' name='[_input]' role='dimension' type='nominal' />
+      <column caption='_Num' datatype='integer' name='[_num]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[_resultNumber]' role='dimension' type='ordinal' />
+      <column caption='_Source' datatype='string' name='[_source]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Company' datatype='string' name='[company]' role='dimension' type='nominal' />
+      <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='Metro' datatype='string' name='[metro]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Revenue' datatype='integer' name='[revenue]' role='measure' type='quantitative' />
+      <column caption='State L' datatype='string' name='[state_l]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State S' datatype='string' name='[state_s]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Workers' datatype='integer' name='[workers]' role='measure' type='quantitative' />
+      <column caption='Yrs On List' datatype='integer' name='[yrs_on_list]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Data Set- Inc5000 Company List_2014.csv' id='Data Set- Inc5000 Company List_2014.csv_9BDB85D33FF94AA586D109801CDEB2D9'>
+            <properties context=''>
+              <relation connection='textscan.03o3tbl06apgl613ms79y0bl5ifa' name='Data Set- Inc5000 Company List_2014.csv' table='[Data Set- Inc5000 Company List_2014#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='_input' ordinal='0' />
+                  <column datatype='integer' name='_num' ordinal='1' />
+                  <column datatype='string' name='_widgetName' ordinal='2' />
+                  <column datatype='string' name='_source' ordinal='3' />
+                  <column datatype='integer' name='_resultNumber' ordinal='4' />
+                  <column datatype='string' name='_pageUrl' ordinal='5' />
+                  <column datatype='integer' name='id' ordinal='6' />
+                  <column datatype='integer' name='rank' ordinal='7' />
+                  <column datatype='integer' name='workers' ordinal='8' />
+                  <column datatype='string' name='company' ordinal='9' />
+                  <column datatype='string' name='url' ordinal='10' />
+                  <column datatype='string' name='state_l' ordinal='11' />
+                  <column datatype='string' name='state_s' ordinal='12' />
+                  <column datatype='string' name='city' ordinal='13' />
+                  <column datatype='string' name='metro' ordinal='14' />
+                  <column datatype='real' name='growth' ordinal='15' />
+                  <column datatype='integer' name='revenue' ordinal='16' />
+                  <column datatype='string' name='industry' ordinal='17' />
+                  <column datatype='integer' name='yrs_on_list' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Data Set- Inc5000 Company List_2014 (2)' inline='true' name='federated.1gzdm2y0ezfuux13qzob5056d3b2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Set- Inc5000 Company List_2014' name='textscan.05nzanr1pc2cvj1a9t2q30bfet7f'>
+            <connection class='textscan' directory='C:/Users/ASUS/Downloads' filename='Data Set- Inc5000 Company List_2014.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.05nzanr1pc2cvj1a9t2q30bfet7f' name='Data Set- Inc5000 Company List_2014.csv' table='[Data Set- Inc5000 Company List_2014#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='_input' ordinal='0' />
+            <column datatype='integer' name='_num' ordinal='1' />
+            <column datatype='string' name='_widgetName' ordinal='2' />
+            <column datatype='string' name='_source' ordinal='3' />
+            <column datatype='integer' name='_resultNumber' ordinal='4' />
+            <column datatype='string' name='_pageUrl' ordinal='5' />
+            <column datatype='integer' name='id' ordinal='6' />
+            <column datatype='integer' name='rank' ordinal='7' />
+            <column datatype='integer' name='workers' ordinal='8' />
+            <column datatype='string' name='company' ordinal='9' />
+            <column datatype='string' name='url' ordinal='10' />
+            <column datatype='string' name='state_l' ordinal='11' />
+            <column datatype='string' name='state_s' ordinal='12' />
+            <column datatype='string' name='city' ordinal='13' />
+            <column datatype='string' name='metro' ordinal='14' />
+            <column datatype='real' name='growth' ordinal='15' />
+            <column datatype='integer' name='revenue' ordinal='16' />
+            <column datatype='string' name='industry' ordinal='17' />
+            <column datatype='integer' name='yrs_on_list' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_input</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_input]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_input</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_num</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_num]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_num</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_widgetName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_widgetName]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_widgetName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_source]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_resultNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_resultNumber]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_resultNumber</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_pageUrl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_pageUrl]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>_pageUrl</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[workers]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>workers</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>company</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state_l]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>state_l</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_s</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state_s]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>state_s</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metro</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[metro]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>metro</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[growth]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>growth</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yrs_on_list</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yrs_on_list]</local-name>
+            <parent-name>[Data Set- Inc5000 Company List_2014.csv]</parent-name>
+            <remote-alias>yrs_on_list</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Data Set- Inc5000 Company List_2014.csv' datatype='table' name='[__tableau_internal_object_id__].[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]' role='measure' type='quantitative' />
+      <column caption='_Input' datatype='string' name='[_input]' role='dimension' type='nominal' />
+      <column caption='_Num' datatype='integer' name='[_num]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[_resultNumber]' role='dimension' type='ordinal' />
+      <column caption='_Source' datatype='string' name='[_source]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Company' datatype='string' name='[company]' role='dimension' type='nominal' />
+      <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='Metro' datatype='string' name='[metro]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Revenue' datatype='integer' name='[revenue]' role='measure' type='quantitative' />
+      <column caption='State_L' datatype='string' name='[state_l]' role='dimension' semantic-role='[AreaCode].[Name]' type='nominal' />
+      <column caption='State S' datatype='string' name='[state_s]' role='dimension' semantic-role='[AreaCode].[Name]' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Workers' datatype='integer' name='[workers]' role='measure' type='quantitative' />
+      <column caption='Yrs On List' datatype='integer' name='[yrs_on_list]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ASUS/AppData/Local/Temp/TableauTemp/#TableauTemp_1g7wm3n08o9xyr12krenx0dctw7m.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/12/2025 01:28:10 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>_input</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[_input]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_input</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>_num</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[_num]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_num</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>_widgetName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[_widgetName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_widgetName</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>_source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[_source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_source</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>_resultNumber</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[_resultNumber]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_resultNumber</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>_pageUrl</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[_pageUrl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_pageUrl</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>workers</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[workers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>workers</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>500</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>url</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state_l</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state_l]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state_l</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state_s</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state_s]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state_s</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>974</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>metro</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[metro]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>metro</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>257</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>growth</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>revenue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>revenue</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>industry</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yrs_on_list</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[yrs_on_list]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yrs_on_list</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Data Set- Inc5000 Company List_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Data Set- Inc5000 Company List_2014.csv' id='Data Set- Inc5000 Company List_2014.csv_1B11CCDCE3764DCD91493F98E195ACE7'>
+            <properties context=''>
+              <relation connection='textscan.05nzanr1pc2cvj1a9t2q30bfet7f' name='Data Set- Inc5000 Company List_2014.csv' table='[Data Set- Inc5000 Company List_2014#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='_input' ordinal='0' />
+                  <column datatype='integer' name='_num' ordinal='1' />
+                  <column datatype='string' name='_widgetName' ordinal='2' />
+                  <column datatype='string' name='_source' ordinal='3' />
+                  <column datatype='integer' name='_resultNumber' ordinal='4' />
+                  <column datatype='string' name='_pageUrl' ordinal='5' />
+                  <column datatype='integer' name='id' ordinal='6' />
+                  <column datatype='integer' name='rank' ordinal='7' />
+                  <column datatype='integer' name='workers' ordinal='8' />
+                  <column datatype='string' name='company' ordinal='9' />
+                  <column datatype='string' name='url' ordinal='10' />
+                  <column datatype='string' name='state_l' ordinal='11' />
+                  <column datatype='string' name='state_s' ordinal='12' />
+                  <column datatype='string' name='city' ordinal='13' />
+                  <column datatype='string' name='metro' ordinal='14' />
+                  <column datatype='real' name='growth' ordinal='15' />
+                  <column datatype='integer' name='revenue' ordinal='16' />
+                  <column datatype='string' name='industry' ordinal='17' />
+                  <column datatype='integer' name='yrs_on_list' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='2014 Inc. 5000: Industry Revenue and Growth Overview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Set- Inc5000 Company List_2014 (2)' name='federated.1gzdm2y0ezfuux13qzob5056d3b2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gzdm2y0ezfuux13qzob5056d3b2'>
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='integer' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <natural-sort column='[federated.1gzdm2y0ezfuux13qzob5056d3b2].[none:industry:nk]' direction='DESC' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gzdm2y0ezfuux13qzob5056d3b2].[sum:growth:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gzdm2y0ezfuux13qzob5056d3b2].[none:industry:nk]</rows>
+        <cols>[federated.1gzdm2y0ezfuux13qzob5056d3b2].[sum:revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{257FE22D-E13F-4326-8A4F-C85D0EBCD4CA}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='2014 Inc. 5000: Industry Revenue and Growth Overview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gzdm2y0ezfuux13qzob5056d3b2].[sum:growth:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gzdm2y0ezfuux13qzob5056d3b2].[none:industry:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{03946645-99AC-44AE-B05E-329F313AB82C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='2014 Inc. 5000: Industry Revenue and Growth Overview' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
