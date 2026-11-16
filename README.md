@@ -25,7 +25,7 @@ Explore this dashboard and more of my visualizations here:
 |-----------------------------------------------|------------------------------------------------|
 | `2014 inc 5000 growth vs Industry.twb`        | Tableau workbook file containing the dashboard |
 | `Data Set- Inc5000 Company List_2014.csv`     | Original dataset used for the analysis          |
-| `INC 5000 20214 Tableau Dashboard.png`        | PNG image snapshot of the dashboard             |
+| `INC 5000 2014 Tableau Dashboard.png`        | PNG image snapshot of the dashboard             |
 
 ---
 
@@ -55,8 +55,12 @@ This analysis is suited for **boardroom discussions, MBA coursework, data analys
 ## 📥 How to Use
 
 1. Visit the Tableau Public profile link above to open and interact with the live dashboard online—no Tableau software needed.  
-2. Review the dashboard image (`INC 5000 20214 Tableau Dashboard.png`) for a quick overview.  
+2. Review the dashboard image (`INC 5000 2014 Tableau Dashboard.png`) for a quick overview.  
 3. Explore the dataset (`Data Set- Inc5000 Company List_2014.csv`) to understand the raw data behind the visuals.
+4. To open the workbook in Tableau Desktop or Tableau Public: download the `.twb` **and** the CSV into the
+   same folder, then open the `.twb`. The workbook was saved with the data at
+   `C:/Users/ASUS/Downloads`, so Tableau may say the data source is missing. Click **Edit Connection**
+   (or **Browse**) and select the CSV from your folder.
 
 ---
 
@@ -69,4 +73,4 @@ Connect with me on LinkedIn:
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+The workbook and documentation are licensed under the MIT License (see `LICENSE`). The INC 5000 data belong to Inc. and remain subject to their terms.
