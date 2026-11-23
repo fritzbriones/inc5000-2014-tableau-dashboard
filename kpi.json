@@ -1,0 +1,13 @@
+{
+  "companies": 5000,
+  "total_revenue_2013_usd": 215290911811,
+  "growth_mean_pct": 516.4,
+  "growth_median_pct": 151.7,
+  "growth_mean_excl_fuhu_pct": 484.7,
+  "workers_mean": 209.0,
+  "workers_median": 50.0,
+  "revenue_median_usd": 10722077,
+  "min_growth_to_qualify_pct": 42.4,
+  "companies_with_0_workers": 13,
+  "states_incl_dc_pr": 51
+}

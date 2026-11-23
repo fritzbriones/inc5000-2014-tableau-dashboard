@@ -1,76 +1,81 @@
-# inc5000-2014-tableau-dashboard
+# Inc. 5000 (2014): Growth & Revenue Dashboard
 
-This repository contains an interactive Tableau Public dashboard analyzing growth and industry trends from the **INC 5000 2014** fastest-growing private companies list.
+A Tableau dashboard of the 2014 **Inc. 5000**, Inc. magazine's list of the
+5,000 fastest-growing private U.S. companies, ranked by 3-year revenue growth from 2010 to 2013.
+A reproducible Python companion (`insights.py`) checks the dashboard's numbers and adds the
+views the dashboard is missing.
 
----
+![Dashboard](INC%205000%202014%20Tableau%20Dashboard.png)
 
-## ⚡ Executive Summary
+## Key findings
 
-This dashboard delivers **boardroom-level insights** designed for executives, MBA professionals, consultants, and top data analysts seeking a comprehensive, high-impact analysis of company growth, revenue, and industry trends.
+- **5,000 companies with $215.3B of combined 2013 revenue.** The median company had $10.7M of revenue and 50 employees.
+- **"Average growth 516%" is misleading.** Growth is extremely skewed: the **median company grew 152%**. Fuhu alone (+158,957%) lifts the mean by 32 points. The minimum to make the list was 42%.
+- **Industry rankings flip when using the median.** By average, Consumer Products & Services looks fastest (1,332%), but that comes from Fuhu; its typical company grew 199%. By median, **Media (236%), Government Services (219%) and Retail (215%)** lead.
+- **Geography is concentrated.** California (694) and Texas (404) hold 22% of the list. Wyoming has no companies on it.
+- **Largest groups:** IT Services (733 companies), Advertising & Marketing (453) and Business Products & Services (435).
 
-Perfect for strategic decision-making, investor presentations, competitive benchmarking, and consulting engagements.
+**Takeaway for an investor or analyst:** the headline growth rates describe a few
+outliers. To compare industries, use the median, and read growth together with company size.
 
----
+## Companion charts (`insights.py`)
 
-## 🌐 Tableau Public Profile
+![Industry growth: mean vs median](industry_growth_mean_vs_median.png)
+![Top 10 by growth](top10_growth.png)
+![Companies by state](companies_by_state.png)
 
-Explore this dashboard and more of my visualizations here:  
-[https://public.tableau.com/app/profile/fritz.jeffry.briones/vizzes](https://public.tableau.com/app/profile/fritz.jeffry.briones/vizzes)
+## Dashboard accuracy check
 
----
+| Dashboard element | Check | Status |
+|---|---|---|
+| KPI: average growth 516.4 | Matches data (mean). Median is 151.7. | ✅ correct, ⚠️ misleading alone |
+| KPI: sum of revenue 215,290,911,811 | Matches data (2013 revenue) | ✅ |
+| KPI: 5,000 companies | Matches | ✅ |
+| KPI: average workers 209.0 | Matches (median 50) | ✅ |
+| Map labels (e.g. CA 694, MN 94, MA 174) | Match company counts by state | ✅ |
+| "Average Growth by Industry" bars | Means are skewed by single companies | ⚠️ switch to median |
+| "Top 10 Companies by Growth" table | Shows "Abc" placeholders, sorted A–Z, no values | ❌ needs fixing |
+| Industry bar charts | Only 7 of 25 industries visible in the image (scroll) | ⚠️ |
 
-## 📂 Files Included
+### How to fix the dashboard in Tableau
 
-| File Name                                     | Description                                    |
-|-----------------------------------------------|------------------------------------------------|
-| `2014 inc 5000 growth vs Industry.twb`        | Tableau workbook file containing the dashboard |
-| `Data Set- Inc5000 Company List_2014.csv`     | Original dataset used for the analysis          |
-| `INC 5000 2014 Tableau Dashboard.png`        | PNG image snapshot of the dashboard             |
+1. **Top 10 table:** drag `Growth` onto *Text* (replacing the "Abc" placeholder), add `Rank` to Rows, sort by `Rank` ascending, and filter `Rank <= 10`.
+2. **Average growth KPI and industry chart:** change the aggregation of `Growth` from *Average* to *Median* (right-click → Measure → Median), or show both.
+3. **Industry charts:** use *Fit → Entire View* so all 25 industries are visible in the exported image.
+4. **Map:** add a legend title that says the colour is revenue and the label is company count.
 
----
+## Data source and verification
 
-## 📊 Dashboard Overview
+- `Data Set- Inc5000 Company List_2014.csv`: 5,000 rows, scraped from Inc.'s public list
+  (`inc.com/inc5000list/json/inc5000_2014.json`, via the import.io tool; the `_input`/`_widgetName`/… columns are scraper metadata).
+- Checked against 2014 press coverage: Fuhu was No. 1 with 158,957% growth and $195.6M revenue, and Quest Nutrition, Reliant Asset Management, Superfish and Acacia Communications were Nos. 2–5 with matching growth and revenue. Minnesota's 94 companies also match local coverage.
+- Ranks follow growth exactly, apart from differences under 0.01 points (Inc. ranks on unrounded growth).
+- `growth` = % revenue growth 2010→2013; `revenue` = 2013 revenue (USD).
+- 13 companies report 0 workers, and 58 have no metro area. Both are left as published.
+- The data belong to Inc. and remain subject to their terms.
 
-The dashboard visualizes:
+## Files
 
-- Average company growth and revenue  
-- Industry average growth comparisons  
-- Top 10 companies by growth  
-- Geographic distribution of companies across the USA  
-- Industry growth vs. revenue bubble chart with legend explanations  
-- Key performance indicators such as average workers and total revenues  
+| File | Description |
+|---|---|
+| `2014 inc 5000 growth vs Industry.twb` | Tableau workbook |
+| `Data Set- Inc5000 Company List_2014.csv` | Source data (unchanged) |
+| `INC 5000 2014 Tableau Dashboard.png` | Dashboard snapshot |
+| `insights.py` | Reproducible checks + companion charts → `kpi.json`, `industry_summary.csv`, `state_summary.csv` |
 
-This analysis is suited for **boardroom discussions, MBA coursework, data analyst deep-dives, and consultant reports**, offering clear, actionable insights.
+### Open the workbook
 
----
+Download the `.twb` and the CSV into the same folder and open the `.twb`. The workbook was saved
+with the data at `C:/Users/ASUS/Downloads`, so if Tableau says the data source is missing, click
+**Edit Connection** and select the CSV.
 
-## 🛠 Tools Used
+### Run the checks
 
-- Tableau Public (for dashboard development and publishing)  
-- Microsoft Excel (for initial data cleaning)  
-- GitHub (for repository hosting)
+```bash
+pip install -r requirements.txt
+python insights.py
+```
 
----
+## License
 
-## 📥 How to Use
-
-1. Visit the Tableau Public profile link above to open and interact with the live dashboard online—no Tableau software needed.  
-2. Review the dashboard image (`INC 5000 2014 Tableau Dashboard.png`) for a quick overview.  
-3. Explore the dataset (`Data Set- Inc5000 Company List_2014.csv`) to understand the raw data behind the visuals.
-4. To open the workbook in Tableau Desktop or Tableau Public: download the `.twb` **and** the CSV into the
-   same folder, then open the `.twb`. The workbook was saved with the data at
-   `C:/Users/ASUS/Downloads`, so Tableau may say the data source is missing. Click **Edit Connection**
-   (or **Browse**) and select the CSV from your folder.
-
----
-
-## 📬 Contact
-
-Connect with me on LinkedIn:  
-[https://www.linkedin.com/in/fritz-jeffry-briones/](https://www.linkedin.com/in/fritz-jeffry-briones/)
-
----
-
-## 📄 License
-
-The workbook and documentation are licensed under the MIT License (see `LICENSE`). The INC 5000 data belong to Inc. and remain subject to their terms.
+The workbook, code and documentation are MIT-licensed (see `LICENSE`). The Inc. 5000 data belong to Inc.
