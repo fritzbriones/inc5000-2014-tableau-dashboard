@@ -1,0 +1,4 @@
+,odds_ratio,ci_low,ci_high,p_value
+2014 growth (per 10x),0.939,0.755,1.169,0.575
+2013 revenue (per 10x),0.723,0.593,0.88,0.001
+Each prior appearance,1.096,1.039,1.156,0.001

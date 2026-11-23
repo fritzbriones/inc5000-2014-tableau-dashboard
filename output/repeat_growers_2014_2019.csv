@@ -1,0 +1,490 @@
+company,industry,city_2014,state,rank_2014,rank_2019,growth_2014_%,growth_2019_%,revenue_2013_usd,revenue_2018_usd,employees_2014,employees_2019,times_on_list_by_2019,revenue_cagr_%
+Kyzen Consulting Services,Government Services,West Palm Beach,MD,593,278.0,805.9,1569.6,2000258,5500000.0,10,22.0,4.0,22.4
+BOS Security,Security,Athens,GA,3789,627.0,82.5,702.2,2686519,7300000.0,100,100.0,5.0,22.1
+Kord Technologies,Government Services,Huntsville,AL,1421,927.0,300.1,458.0,10914481,70100000.0,73,243.0,3.0,45.1
+Votto Vines Importing,Food & Beverage,Hamden,CT,464,980.0,1023.3,432.3,4313302,39600000.0,10,20.0,6.0,55.8
+MOD Pizza,Food & Beverage,Bellevue,WA,1163,1017.0,376.3,414.6,9037426,311800000.0,353,6000.0,6.0,103.0
+Lief Labs,Health,Valencia,CA,1469,1022.0,290.6,412.6,5390000,50100000.0,22,200.0,4.0,56.2
+Fresh Consulting,Business Products & Services,Bellevue,WA,985,1032.0,455.1,407.8,4768000,32500000.0,6,194.0,7.0,46.8
+Prime Therapeutics,Health,Eagan,MN,4619,1073.0,54.3,390.6,2511716640,21400000000.0,3267,3300.0,8.0,53.5
+TaskUs,Business Products & Services,Santa Monica,CA,631,1115.0,739.1,373.6,6243017,254200000.0,725,14098.0,7.0,109.9
+Zivelo,Computer Hardware,Scottsdale,AZ,1519,1119.0,282.6,371.5,11688717,46700000.0,27,58.0,5.0,31.9
+Logical Position,Advertising & Marketing,Lake Oswego,OR,311,1157.0,1486.3,358.8,3537094,47300000.0,62,501.0,6.0,68.0
+Behavioral Health Works,Health,Garden Grove,CA,931,1165.0,483.6,355.8,4402856,35300000.0,108,2000.0,6.0,51.6
+Pure Incubation,Advertising & Marketing,Topsfield,MA,170,1229.0,2427.8,334.3,4696917,41300000.0,27,1382.0,6.0,54.5
+Trinity Logistics USA,Logistics & Transportation,Valley Stream,NY,1344,1266.0,321.0,325.1,16051867,130400000.0,14,211.0,4.0,52.0
+Advantage Media Group,Media,Charleston,SC,3664,1355.0,87.7,305.3,2998046,23600000.0,18,117.0,7.0,51.1
+TISTA Science and Technology,Government Services,Rockville,MD,1505,1363.0,284.8,303.4,21661625,130700000.0,150,485.0,9.0,43.3
+Medical Guardian,Health,Philadelphia,PA,1072,1406.0,415.0,292.7,10866976,46400000.0,85,237.0,7.0,33.7
+Ventech Solutions,IT Management,Columbus,OH,1380,1410.0,310.7,292.3,14764999,143700000.0,85,425.0,9.0,57.6
+Vantage Payments,Financial Services,Scottsdale,AZ,2942,1413.0,122.8,291.6,2025574,13900000.0,6,9.0,6.0,47.0
+No Limit Agency,Software,Chicago,IL,1870,1427.0,219.2,289.4,2882043,2000000.0,24,9.0,6.0,-7.0
+United Wall Systems,Construction,Winter Garden,FL,1246,1438.0,349.4,287.2,8908000,28900000.0,75,72.0,3.0,26.5
+Dream Finders Homes,Construction,Orange Park,FL,823,1502.0,552.3,275.4,84865345,524400000.0,60,280.0,9.0,43.9
+Credence Management Solutions,Government Services,Washington,VA,675,1577.0,674.2,262.3,21929794,117600000.0,120,646.0,8.0,39.9
+Becker Logistics,Logistics & Transportation,Carol Stream,IL,4600,1596.0,54.9,257.7,7233651,80500000.0,17,120.0,2.0,61.9
+Camp Gladiator,Consumer Products & Services,Austin,TX,643,1628.0,724.6,253.5,6786000,53300000.0,41,82.0,7.0,51.0
+Metis Solutions,Government Services,Alexandria,VA,201,1630.0,2170.6,253.3,8686766,58200000.0,45,400.0,6.0,46.3
+The Participation Agency,Advertising & Marketing,New York,NY,348,1640.0,1351.8,251.5,2163161,8400000.0,5,35.0,4.0,31.2
+StaffRehab,Education,Newport Beach,CA,1033,1645.0,431.5,250.6,2386388,13100000.0,10,25.0,4.0,40.6
+Integrity Express Logistics,Logistics & Transportation,Blue Ash,OH,972,1696.0,462.9,240.6,49339328,411900000.0,78,579.0,8.0,52.9
+Sawtst,Government Services,Peachtree City,GA,2613,1718.0,143.8,236.7,8510802,35500000.0,50,238.0,6.0,33.1
+New Signature,IT Management,Washington,DC,2126,1774.0,187.7,229.7,10107047,52500000.0,75,350.0,8.0,39.0
+NetImpact Strategies,Government Services,Chantilly,VA,873,1790.0,513.8,228.2,7967829,36600000.0,38,178.0,6.0,35.7
+Baldwin Risk Partners,Insurance,Tampa,FL,2967,1806.0,121.5,225.7,15671743,79800000.0,180,470.0,6.0,38.5
+The Institute for Wealth Management,Financial Services,Denver,CO,2617,1820.0,143.7,223.5,4438064,8200000.0,9,10.0,3.0,13.1
+Orangetheory Fitness,Health,Fort Lauderdale,FL,399,1830.0,1178.1,222.6,7093459,179600000.0,23,451.0,6.0,90.8
+22nd Century Technologies,Government Services,Somerset,VA,3359,1835.0,99.7,221.5,26953332,166300000.0,229,1638.0,11.0,43.9
+HealthMark Group,Health,Dallas,TX,4672,1836.0,52.7,221.5,2256395,8900000.0,20,70.0,5.0,31.6
+JWB Real Estate Capital,Real Estate,Jacksonville,FL,3009,1841.0,118.5,220.5,9324295,92100000.0,35,62.0,8.0,58.1
+Kobie Marketing,Advertising & Marketing,St. Petersburg,FL,4802,1842.0,48.6,220.4,20068185,144300000.0,104,312.0,9.0,48.4
+Advance Financial,Financial Services,Nashville,TN,1771,1851.0,234.2,219.0,51876787,323300000.0,605,1097.0,8.0,44.2
+Avanti Systems USA,Construction,Port Chester,CT,2664,1858.0,141.0,217.9,2085237,3800000.0,7,9.0,3.0,12.8
+Sunset Healthcare Solutions,Health,Chicago,IL,2297,1872.0,169.5,216.1,8586471,43600000.0,39,65.0,8.0,38.4
+Spot Freight,Logistics & Transportation,Indianapolis,IN,1507,1874.0,284.2,216.0,21183154,201400000.0,8,173.0,6.0,56.9
+Lumber One Services,Construction,Paradise Valley,AZ,379,1890.0,1258.2,213.0,4101007,35200000.0,3,10.0,6.0,53.7
+ndVOR Solutions,IT Management,Lawrenceville,NJ,1630,1898.0,261.3,212.0,2630000,7000000.0,55,13.0,3.0,21.6
+Higher Logic,Software,Arlington,VA,2374,1917.0,162.6,209.0,7640500,59600000.0,49,335.0,7.0,50.8
+InRhythm,Software,New York,NY,2266,1919.0,172.6,208.8,3792706,26100000.0,34,113.0,7.0,47.1
+RoundTower Technologies,IT System Development,Cincinnati,OH,1444,1920.0,295.1,208.5,86597197,445600000.0,110,420.0,8.0,38.8
+SRP Environmental,Environmental Services,Shreveport,LA,4225,1948.0,67.3,205.9,4159968,14400000.0,30,56.0,4.0,28.2
+Little Sunshine's Playhouse,Education,Springfield,MO,3219,1950.0,107.8,205.8,5887026,36100000.0,180,638.0,5.0,43.7
+The HCI Group,Health,Jacksonville,FL,13,1974.0,13230.9,203.6,34583142,229800000.0,153,1626.0,7.0,46.0
+CrossCountry Mortgage,Financial Services,Brecksville,OH,2689,1988.0,139.8,201.9,61347000,333400000.0,371,2446.0,6.0,40.3
+POTENZA,Advertising & Marketing,Lafayette,LA,1002,2011.0,446.5,199.6,2162537,19700000.0,20,84.0,6.0,55.6
+Scotlynn USA Division,Logistics & Transportation,Fort Myers,FL,599,2033.0,793.5,197.8,39628078,192800000.0,41,200.0,3.0,37.2
+J2 Solutions,Construction,King of Prussia,FL,820,2072.0,553.9,194.6,2804268,19600000.0,27,45.0,2.0,47.5
+Spartan Value Investors,Real Estate,Birmingham,AL,246,2077.0,1865.5,194.3,3370905,25700000.0,3,19.0,6.0,50.1
+Madwire,Advertising & Marketing,Loveland,CO,287,2085.0,1593.1,193.7,13325850,90600000.0,147,489.0,7.0,46.7
+Smarsh,Software,Portland,OR,3137,2093.0,112.4,192.6,31541000,111400000.0,199,623.0,12.0,28.7
+TrendHR,Human Resources,Rockwall,TX,1788,2112.0,232.0,190.9,159387745,42400000.0,23,716.0,4.0,-23.3
+Agency EA,Advertising & Marketing,Chicago,IL,2834,2127.0,130.1,189.1,16891210,71600000.0,56,138.0,5.0,33.5
+Digital Media Solutions,Advertising & Marketing,Clearwater,FL,1888,2134.0,217.6,188.2,21024000,156200000.0,40,335.0,6.0,49.3
+Energy 1,Construction,Bozeman,MT,1436,2159.0,297.0,186.4,2695412,12400000.0,9,74.0,6.0,35.7
+Parts Town,Business Products & Services,Addison,IL,2828,2165.0,130.3,186.1,78682718,534000000.0,125,1505.0,11.0,46.7
+Cali Bamboo,Manufacturing,San Diego,CA,3393,2196.0,98.6,183.4,22464525,131800000.0,40,133.0,11.0,42.5
+CoConstruct,Software,Crozet,VA,515,2199.0,912.4,183.0,2101986,11100000.0,16,97.0,6.0,39.5
+Transportation One,Logistics & Transportation,Chicago,IL,755,2204.0,605.1,182.6,7099620,39700000.0,12,50.0,6.0,41.1
+VersaTech,IT Management,Savage,MD,1536,2206.0,278.2,182.3,5184869,39100000.0,25,117.0,6.0,49.8
+AvidXchange,Software,Charlotte,NC,2273,2243.0,171.6,179.4,18332017,124900000.0,200,1200.0,7.0,46.8
+Praetorian,Security,Austin,TX,2087,2254.0,192.0,178.6,2129785,12400000.0,10,50.0,6.0,42.2
+Novasyte,Health,Carlsbad,CA,1704,2259.0,246.7,178.2,6252019,41100000.0,100,956.0,7.0,45.7
+Capacity,Logistics & Transportation,North Brunswick,NJ,3575,2276.0,91.1,176.2,23193485,76900000.0,225,740.0,6.0,27.1
+MediRevv,Health,Coralville,IA,1966,2287.0,206.9,175.8,12183573,56100000.0,168,660.0,8.0,35.7
+eSquared Communication Consulting,Telecommunications,Tempe,AZ,3488,2290.0,94.7,175.6,6602625,28800000.0,55,130.0,6.0,34.3
+Squaremouth,Insurance,St. Petersburg,FL,3924,2292.0,77.5,175.3,3411135,13500000.0,18,35.0,7.0,31.7
+Health Catalyst,Health,Salt Lake City,UT,1497,2301.0,286.6,174.7,4528272,112600000.0,134,734.0,7.0,90.2
+Window Nation,Construction,Glen Burnie,MD,4832,2319.0,47.8,173.6,31229652,132400000.0,61,351.0,3.0,33.5
+SADA Systems,IT Management,North Hollywood,CA,1506,2332.0,284.7,172.6,28404617,127300000.0,91,225.0,12.0,35.0
+EGen Solutions,IT System Development,Naperville,IL,3513,2347.0,93.8,170.7,10429005,45700000.0,109,250.0,5.0,34.4
+Katalyst Group,Human Resources,Pacific Palisades,CA,1454,2359.0,293.8,169.5,2020634,3400000.0,6,9.0,3.0,11.0
+Tallwave,Business Products & Services,Scottsdale,AZ,1465,2365.0,291.2,169.0,2320000,8900000.0,27,59.0,5.0,30.9
+Abstrakt Marketing Group,Advertising & Marketing,St. Louis,MO,768,2381.0,593.0,167.7,7462345,23300000.0,87,260.0,5.0,25.6
+Fathom Realty,Real Estate,Cary,NC,457,2386.0,1038.6,167.5,2351447,84300000.0,7,25.0,6.0,104.6
+Repay,Financial Services,Atlanta,GA,813,2448.0,559.7,162.2,22089508,130000000.0,14,139.0,9.0,42.5
+Elite Pacific Properties,Real Estate,Honolulu,HI,1607,2451.0,265.0,162.1,5582170,40500000.0,6,37.0,7.0,48.6
+IronMountain Solutions,Government Services,Huntsville,AL,2166,2452.0,183.2,162.0,5580000,42100000.0,38,195.0,7.0,49.8
+AffiniPay,Financial Services,Austin,TX,1659,2459.0,254.4,161.4,9455056,47500000.0,37,130.0,8.0,38.1
+"Convene (New York, NY)",Real Estate,New York,NY,1598,2461.0,266.3,161.3,18567366,75500000.0,88,580.0,4.0,32.4
+Chantel Ray Real Estate,Real Estate,Virginia Beach,VA,2036,2495.0,198.7,157.6,3468949,10600000.0,45,37.0,6.0,25.0
+The Basement,Advertising & Marketing,Indianapolis,IN,4188,2500.0,68.6,157.4,2033000,11100000.0,14,35.0,5.0,40.4
+WebPT,Software,Phoenix,AZ,362,2506.0,1316.1,157.2,17077236,80500000.0,183,513.0,7.0,36.4
+ShayCore Enterprises,Construction,Jacksonville,FL,431,2516.0,1095.4,156.7,8391053,28000000.0,55,85.0,5.0,27.3
+Material Handling Services,Business Products & Services,Perrysburg,OH,3677,2530.0,87.3,155.4,148379000,694400000.0,369,1699.0,6.0,36.2
+Bell Media,Advertising & Marketing,Montgomery,AL,3453,2533.0,96.3,155.0,3012000,9100000.0,19,58.0,5.0,24.7
+Nuventra Pharma Sciences,Health,Durham,NC,1903,2535.0,215.8,155.0,2979189,15600000.0,20,56.0,6.0,39.3
+Executech,IT Management,South Jordan,UT,1468,2538.0,291.0,154.7,4806227,26700000.0,36,127.0,7.0,40.9
+Clearent,Financial Services,Clayton,MO,975,2541.0,459.8,154.4,80981529,408000000.0,116,570.0,8.0,38.2
+EBQuickstart,Business Products & Services,Austin,TX,2428,2572.0,158.5,152.5,5153531,17800000.0,60,189.0,6.0,28.1
+AgileThought,Software,Tampa,FL,1351,2573.0,318.8,152.4,20808566,73300000.0,96,439.0,12.0,28.6
+JEAR Logistics,Logistics & Transportation,Mount Pleasant,SC,491,2575.0,968.6,152.0,15142000,107800000.0,22,98.0,6.0,48.1
+Electrosoft Services,Government Services,Reston,VA,1487,2585.0,288.0,151.3,9362848,12600000.0,30,74.0,6.0,6.1
+iQuanti,Advertising & Marketing,Hoboken,NJ,277,2595.0,1654.4,150.6,5001355,14600000.0,100,197.0,5.0,23.9
+Park Place Technologies,IT Management,Chagrin Falls,OH,3311,2615.0,102.2,149.4,52996692,218400000.0,261,1200.0,7.0,32.7
+EnableComp,Insurance,Franklin,TN,2750,2631.0,135.6,147.9,5400854,24400000.0,49,235.0,6.0,35.2
+BOS Staffing,Human Resources,Athens,GA,4609,2649.0,54.6,146.8,3694290,2100000.0,850,100.0,6.0,-10.7
+Fortis Construction,Construction,Portland,OR,4212,2656.0,67.8,146.4,249046391,1200000000.0,85,330.0,11.0,37.0
+Net2Source,Human Resources,Jersey City,NJ,4854,2658.0,47.1,146.0,13386984,52800000.0,80,647.0,6.0,31.6
+Pyure Brands,Food & Beverage,Naples,FL,528,2666.0,898.4,145.3,3044801,22300000.0,7,12.0,4.0,48.9
+Deep Blue Communications,IT Management,Latham,NY,1831,2677.0,224.7,144.7,7660279,33000000.0,44,125.0,8.0,33.9
+GeBBS Healthcare Solutions,Health,Englewood Cliffs,CA,3567,2679.0,91.3,144.7,22758276,73900000.0,2700,6851.0,11.0,26.6
+NCWC,Advertising & Marketing,Ocean,NJ,2202,2707.0,179.2,142.3,32340225,195800000.0,250,54.0,6.0,43.4
+ALKU,Business Products & Services,Andover,MA,1338,2712.0,323.1,142.1,38198291,205700000.0,58,229.0,8.0,40.0
+Biomedical Research Laboratories,Consumer Products & Services,Wilmington,CA,416,2720.0,1136.8,141.4,2583087,6500000.0,13,14.0,5.0,20.3
+Cambria Solutions,Government Services,Sacramento,CA,2831,2721.0,130.2,141.3,15198217,35900000.0,49,103.0,8.0,18.8
+DEG,Advertising & Marketing,Overland Park,KS,2259,2752.0,173.1,138.4,18440696,63800000.0,116,320.0,9.0,28.2
+Transportation Impact,Logistics & Transportation,Emerald Isle,NC,728,2755.0,627.0,138.2,7080133,24500000.0,12,58.0,7.0,28.2
+Momentum Solutionz,IT System Development,Stafford,VA,1410,2759.0,303.5,137.5,2809354,5300000.0,2,18.0,4.0,13.5
+Cipher Tech Solutions,Government Services,Upper Nyack,NY,2641,2772.0,142.1,136.6,3109403,8000000.0,21,43.0,8.0,20.8
+Greenland America,Business Products & Services,Roswell,GA,4310,2778.0,64.5,136.0,128524396,188100000.0,25,36.0,7.0,7.9
+Strike,Energy,The Woodlands,TX,1489,2785.0,287.5,135.7,745391133,1700000000.0,2958,6941.0,10.0,17.9
+Culture Studio,Consumer Products & Services,Chicago,IL,1169,2793.0,374.5,135.1,2732184,12200000.0,37,150.0,6.0,34.9
+Precision Precast Erectors,Construction,Worley,ID,1476,2800.0,289.9,134.6,3913426,9800000.0,20,20.0,4.0,20.2
+Platinum Realty,Real Estate,Overland Park,KS,1562,2812.0,272.2,134.0,11090237,33900000.0,10,17.0,8.0,25.0
+Nebo,Advertising & Marketing,Atlanta,GA,2021,2817.0,200.3,133.8,6163646,20200000.0,50,100.0,9.0,26.8
+JSL Technologies,Government Services,Oxnard,CA,1674,2820.0,251.6,133.3,4424262,29800000.0,73,290.0,4.0,46.4
+Durante Rentals,Construction,Bronx,NY,2098,2823.0,190.8,133.2,7090903,37100000.0,37,107.0,7.0,39.2
+Chief Outsiders,Advertising & Marketing,Houston,TX,560,2827.0,863.2,132.9,3094109,12800000.0,22,68.0,6.0,32.8
+acquisitionsandrenewals.com,Telecommunications,Henderson,CA,296,2834.0,1548.8,132.4,4628284,13700000.0,2,2.0,5.0,24.2
+Visual Connections,Government Services,Windsor Mill,MD,3072,2835.0,115.4,132.4,2800773,25600000.0,11,75.0,4.0,55.7
+Cantey Technology,IT Management,Mount Pleasant,SC,2827,2843.0,130.3,131.8,2568000,7900000.0,17,55.0,7.0,25.2
+The Saywitz Company,Real Estate,Newport Beach,CA,3978,2845.0,75.7,131.7,10231297,14500000.0,30,48.0,5.0,7.2
+Logistics Plus,Logistics & Transportation,Erie,PA,3599,2857.0,90.2,131.2,78801243,195700000.0,149,255.0,5.0,20.0
+Katom Restaurant Supply,Business Products & Services,Kodak,TN,2983,2866.0,120.3,130.7,54975244,152300000.0,85,160.0,11.0,22.6
+Triumph Services,Human Resources,Glen Allen,VA,1876,2882.0,218.7,130.0,2852634,3200000.0,45,35.0,2.0,2.3
+CTE Logistics,Logistics & Transportation,Auburn,WA,1673,2891.0,251.6,129.5,3323133,12600000.0,13,30.0,7.0,30.5
+Delta Defense,Media,West Bend,WI,1158,2908.0,378.4,128.8,16355000,71200000.0,45,260.0,8.0,34.2
+Developintelligence,Education,Boulder,CO,860,2909.0,524.7,128.8,2046307,8100000.0,7,20.0,6.0,31.7
+Select Security,Security,Lancaster,PA,3571,2911.0,91.3,128.7,12437927,43800000.0,158,350.0,5.0,28.6
+Tiempo Development,Software,Tempe,AZ,2313,2915.0,167.9,128.5,8599801,20900000.0,220,386.0,7.0,19.4
+Fonteva,Software,Arlington,VA,286,2922.0,1599.8,128.1,2876083,19800000.0,29,150.0,6.0,47.1
+Fors Marsh Group,Government Services,Arlington,VA,3881,2923.0,79.3,128.1,14327493,47900000.0,67,215.0,7.0,27.3
+US Patriot,Retail,Columbia,SC,3984,2926.0,75.4,127.9,19991120,68600000.0,78,295.0,4.0,28.0
+nLogic,Government Services,Huntsville,AL,3064,2927.0,116.1,127.8,14511681,48500000.0,69,285.0,10.0,27.3
+Sandler Partners,Telecommunications,Hermosa Beach,CA,1957,2960.0,207.4,126.3,22927724,90700000.0,29,66.0,10.0,31.7
+Echo Health,Health,Westlake,OH,162,2970.0,2509.2,125.9,46984261,148600000.0,24,92.0,7.0,25.9
+Silverline,IT System Development,New York,NY,977,2974.0,458.6,125.8,16098296,50500000.0,100,299.0,6.0,25.7
+CollabraLink Technologies,Government Services,McLean,VA,2291,2977.0,170.1,125.6,10827488,45300000.0,58,267.0,8.0,33.1
+Allegheny Science & Technology,Government Services,Bridgeport,WV,268,3023.0,1723.3,122.9,7023359,44700000.0,47,200.0,6.0,44.8
+Marathon TS,Government Services,Kilmarnock,VA,163,3025.0,2507.8,122.6,6821409,22900000.0,75,200.0,6.0,27.4
+Ruby Receptionists,Telecommunications,Portland,OR,2130,3028.0,187.4,122.4,11322489,47200000.0,129,583.0,8.0,33.0
+Tidewater Fleet Supply,Logistics & Transportation,Norfolk,VA,4862,3049.0,47.0,121.5,27306522,60700000.0,96,200.0,7.0,17.3
+Medical Solutions,Health,Omaha,NE,1424,3050.0,299.8,121.5,126183946,480600000.0,1107,514.0,12.0,30.7
+RevLocal,Advertising & Marketing,Granville,OH,108,3052.0,3341.7,121.4,7268587,35700000.0,146,376.0,6.0,37.5
+Unlimited Landscaping & Turf Management,Environmental Services,Buford,GA,4455,3073.0,59.4,120.7,6003997,20000000.0,75,216.0,4.0,27.2
+AvAir,Logistics & Transportation,Chandler,AZ,3051,3076.0,116.5,120.4,40730169,67100000.0,34,80.0,2.0,10.5
+Circle Computer Resources,IT Management,Cedar Rapids,IA,2614,3078.0,143.8,120.3,8777379,24700000.0,63,108.0,10.0,23.0
+"IT Partners (Bethel Park, PA)",Business Products & Services,Bethel Park,VA,976,3088.0,459.1,119.9,2001731,8500000.0,2,45.0,6.0,33.5
+Redhorse,Government Services,San Diego,CA,1513,3105.0,283.2,118.9,8204095,86200000.0,82,380.0,7.0,60.1
+MKD Electric,Construction,Elgin,IL,3614,3107.0,89.5,118.7,21278700,68200000.0,118,267.0,5.0,26.2
+eLearningBrothers,Education,American Fork,UT,331,3112.0,1405.8,118.3,2456385,10100000.0,32,62.0,6.0,32.7
+ImagineSoftware,Health,Charlotte,NC,2375,3113.0,162.5,118.0,12605395,34200000.0,65,140.0,9.0,22.1
+"FATHOM (Oakland, CA)",Manufacturing,Oakland,CA,1312,3123.0,328.6,117.7,5654859,16200000.0,25,72.0,7.0,23.4
+Insight Sourcing Group,Business Products & Services,Atlanta,GA,2635,3130.0,142.6,117.5,14230513,43500000.0,59,131.0,12.0,25.0
+Datavail,IT Management,Broomfield,CO,1511,3135.0,283.3,117.0,24036927,70700000.0,425,975.0,8.0,24.1
+Levitate Media,Advertising & Marketing,San Francisco,CA,237,3140.0,1923.4,116.9,2094293,6400000.0,16,25.0,6.0,25.0
+Mommy's Bliss,Consumer Products & Services,San Rafael,CA,3222,3149.0,107.7,116.4,7267662,28900000.0,9,25.0,7.0,31.8
+Division-D,Advertising & Marketing,Columbia,MO,4242,3152.0,66.7,116.3,14978705,45100000.0,33,83.0,7.0,24.7
+ScribeAmerica,Health,Aventura,FL,849,3164.0,529.1,115.9,52637800,305100000.0,3500,20599.0,9.0,42.1
+Renters Warehouse,Real Estate,Minnetonka,MN,1549,3173.0,274.7,115.4,12200908,32800000.0,130,375.0,10.0,21.9
+The Dagit Group,Construction,King of Prussia,PA,661,3187.0,695.6,114.9,14202252,32100000.0,13,32.0,8.0,17.7
+King Memory,Computer Hardware,Columbus,OH,733,3188.0,623.8,114.8,2386964,18200000.0,26,58.0,6.0,50.1
+LLamasoft,Software,Ann Arbor,MI,1301,3200.0,331.7,114.2,24450000,80600000.0,130,545.0,5.0,26.9
+Zenetex,Government Services,Herndon,VA,1864,3201.0,220.4,114.1,50265759,188200000.0,441,1685.0,8.0,30.2
+Ruoff Home Mortgage,Financial Services,Fort Wayne,IN,3589,3209.0,90.5,113.5,17013205,102600000.0,168,595.0,7.0,43.2
+Tucker-Rose Associates,IT Management,New Braunfels,TX,514,3215.0,915.0,113.3,3115333,9100000.0,24,80.0,5.0,23.9
+Closet America,Construction,Lanham,MD,2767,3218.0,134.4,113.1,5562108,15000000.0,50,110.0,3.0,21.9
+AltSource,Software,Portland,OR,3239,3219.0,106.9,113.1,2872721,18800000.0,33,139.0,6.0,45.6
+Asurint,Business Products & Services,Cleveland,OH,2581,3222.0,145.6,112.9,15935232,48600000.0,110,350.0,5.0,25.0
+Buildium,Software,Boston,MA,1446,3227.0,294.9,112.7,7508898,41400000.0,67,223.0,8.0,40.7
+ARGI Financial Group,Financial Services,Louisville,KY,2866,3228.0,128.2,112.6,9929555,26700000.0,63,149.0,11.0,21.9
+Gateway Mortgage Group,Financial Services,Tulsa,OK,1938,3232.0,209.3,112.4,74381000,276700000.0,403,1200.0,9.0,30.0
+Optimum Employer Solutions,Human Resources,Newport Beach,CA,4953,3240.0,44.0,112.1,6805427,25600000.0,13,21.0,9.0,30.3
+Mediafly,Software,Chicago,IL,690,3248.0,657.2,111.9,2423000,10600000.0,30,75.0,6.0,34.3
+Hydra-Flex,Manufacturing,Burnsville,MN,2905,3257.0,125.5,111.3,5093219,20100000.0,19,66.0,6.0,31.6
+MassPay,Human Resources,Beverly,MA,2524,3259.0,149.8,111.1,2006663,6400000.0,21,58.0,6.0,26.1
+Mail Shark,Advertising & Marketing,Mohnton,PA,1534,3262.0,278.4,111.0,7881905,30600000.0,33,100.0,8.0,31.2
+Hire Dynamics,Human Resources,Duluth,GA,2314,3265.0,167.8,110.9,65787100,219600000.0,96,258.0,9.0,27.3
+iCIMS,Software,Matawan,NJ,3731,3266.0,84.7,110.9,47401022,178700000.0,270,800.0,13.0,30.4
+Fingerpaint,Advertising & Marketing,Saratoga Springs,NY,949,3272.0,475.7,110.6,18680000,44800000.0,92,220.0,7.0,19.1
+Prosek Partners,Advertising & Marketing,New York,NY,4084,3273.0,72.1,110.6,17396497,50300000.0,72,161.0,10.0,23.7
+Walker Sands,Advertising & Marketing,Chicago,IL,1560,3274.0,272.9,110.5,3871029,15600000.0,43,114.0,7.0,32.1
+Dom & Tom,Software,New York,NY,382,3276.0,1232.4,110.4,4051216,12300000.0,35,67.0,6.0,24.9
+Dfuse Technologies,IT System Development,Ashburn,VA,1395,3286.0,307.2,109.9,4546809,6900000.0,16,42.0,3.0,8.7
+Arcos,Software,Columbus,OH,3207,3295.0,108.5,109.6,8914904,29800000.0,35,100.0,5.0,27.3
+Greenphire,Software,King of Prussia,PA,626,3298.0,745.0,109.5,6785000,31100000.0,49,150.0,7.0,35.6
+PM Pediatrics,Health,Lake Success,NY,3065,3300.0,116.0,109.4,18144714,80500000.0,277,901.0,9.0,34.7
+Propio Language Services,Business Products & Services,Lenexa,KS,2398,3312.0,160.6,108.6,2668692,12500000.0,10,34.0,6.0,36.2
+Resource Environmental Solutions,Environmental Services,Baton Rouge,TX,2509,3331.0,150.7,107.6,28465000,132100000.0,46,403.0,9.0,35.9
+Fortis Riders,Travel & Hospitality,Greenville,SC,3411,3337.0,97.8,107.3,7939818,18800000.0,11,33.0,9.0,18.8
+Ampcus,IT System Development,Chantilly,VA,2404,3338.0,160.0,107.3,25240274,72800000.0,285,836.0,9.0,23.6
+Frontline Source Group,Human Resources,Dallas,TX,1388,3363.0,308.5,106.2,11322163,9900000.0,31,22.0,4.0,-2.6
+Online Rewards,Business Products & Services,Dallas,TX,4200,3378.0,68.2,105.6,17850116,73500000.0,35,55.0,12.0,32.7
+National Funding,Financial Services,San Diego,CA,3192,3387.0,109.5,105.3,26707000,121300000.0,100,230.0,7.0,35.3
+AMG & Associates,Construction,Santa Clarita,CA,3981,3391.0,75.6,105.0,22244380,80100000.0,24,40.0,7.0,29.2
+Pedego Electric Bikes,Consumer Products & Services,Irvine,CA,1311,3393.0,329.2,104.8,5467255,20100000.0,16,37.0,6.0,29.7
+Infiniti HR,Human Resources,Burtonsville,MD,4223,3394.0,67.4,104.8,151039927,458000000.0,20000,58145.0,7.0,24.8
+Fora Financial,Financial Services,New York,NY,659,3395.0,698.2,104.7,18418300,68600000.0,60,102.0,6.0,30.1
+SoftNice,IT Management,Allentown,PA,1769,3418.0,234.3,103.5,6987700,22700000.0,42,120.0,11.0,26.6
+Netwrix,Software,Irvine,CA,1681,3419.0,251.0,103.5,8584176,34800000.0,106,374.0,8.0,32.3
+Information Technology Professionals,IT Management,Madison,WI,1866,3423.0,219.3,103.0,2959974,9500000.0,20,56.0,5.0,26.3
+Mosquito Squad,Consumer Products & Services,Richmond,VA,1413,3436.0,303.2,102.6,17162823,61700000.0,33,25.0,9.0,29.2
+Zambezi,Advertising & Marketing,Venice,CA,3325,3452.0,101.4,101.8,14855248,25900000.0,66,80.0,5.0,11.8
+Transparent BPO,Business Products & Services,Bethesda,MD,1149,3462.0,382.8,101.6,5244897,16100000.0,300,750.0,5.0,25.1
+Early Growth Financial Services,Financial Services,San Jose,CA,797,3468.0,573.1,101.4,4188467,17200000.0,70,130.0,5.0,32.6
+Viva Railings,Construction,Carrollton,TX,1937,3475.0,209.4,101.2,8289060,18900000.0,23,80.0,8.0,17.9
+Vision33,Software,Irvine,CA,2852,3476.0,129.1,101.0,19107027,56400000.0,66,389.0,8.0,24.2
+Hargrove Engineers + Constructors,Engineering,Mobile,AL,2461,3477.0,155.3,101.0,108938726,355300000.0,847,2103.0,12.0,26.7
+WebMechanix,Advertising & Marketing,Columbia,MD,774,3480.0,590.0,101.0,2447285,5000000.0,4,45.0,5.0,15.4
+Softdocs,Software,Columbia,SC,4582,3485.0,55.4,100.8,5503942,14500000.0,72,88.0,5.0,21.4
+Foundant Technologies,Software,Bozeman,MT,3021,3488.0,118.2,100.7,2185463,8100000.0,21,96.0,6.0,30.0
+Plasticard Locktech International,Manufacturing,Asheville,NV,3108,3499.0,113.7,100.4,44592034,182300000.0,330,1036.0,10.0,32.5
+WheelsOnsite USA,Business Products & Services,Sterling,VA,1705,3509.0,246.6,100.0,2005432,6200000.0,23,80.0,6.0,25.3
+YapStone,Financial Services,Walnut Creek,CA,2900,3525.0,125.6,99.5,88053519,320200000.0,165,404.0,12.0,29.5
+ODW Logistics & Transportation Services,Logistics & Transportation,Hamilton,OH,1968,3534.0,206.8,99.2,20779141,84100000.0,27,71.0,7.0,32.3
+Sequoia Financial Group,Financial Services,Akron,OH,3283,3544.0,103.9,98.9,6424334,17300000.0,38,73.0,6.0,21.9
+Insight2Profit,Business Products & Services,Cleveland,OH,1631,3560.0,261.0,98.2,9306161,30000000.0,40,101.0,8.0,26.4
+Fuel Medical Group,Health,Vancouver,WA,367,3584.0,1298.6,97.6,5851652,21100000.0,32,93.0,6.0,29.2
+McKee Homes,Construction,Fayetteville,NC,562,3585.0,855.5,97.6,18532024,68500000.0,14,55.0,6.0,29.9
+Transportation Insight,Logistics & Transportation,Hickory,NC,2537,3596.0,148.7,97.3,689065000,2300000000.0,186,486.0,12.0,27.3
+Vector Media Group,Advertising & Marketing,New York,NY,925,3598.0,487.1,97.1,2930153,13000000.0,15,51.0,7.0,34.7
+Worksighted,IT Management,Holland,MI,3252,3615.0,106.2,96.6,4949679,15200000.0,27,74.0,8.0,25.2
+Concierge Auctions,Real Estate,New York,TX,3922,3621.0,77.6,96.4,11150000,40000000.0,27,120.0,6.0,29.1
+MedicOne Medical Response,Health,Farmers Branch,TX,1975,3632.0,206.0,96.0,11176721,22700000.0,381,470.0,5.0,15.2
+Avionte,Human Resources,Eagan,MN,1568,3637.0,271.6,95.8,8837000,26600000.0,84,165.0,8.0,24.7
+OSM Worldwide,Logistics & Transportation,Bensenville,IL,4668,3644.0,52.7,95.7,41818175,117600000.0,42,60.0,9.0,23.0
+Movoto,Real Estate,San Mateo,CA,4253,3653.0,66.2,95.3,5663000,17400000.0,45,280.0,5.0,25.2
+Coretelligent,IT Management,Needham,MA,3261,3670.0,105.5,94.6,5431762,25700000.0,27,100.0,8.0,36.5
+Corner Alliance,Government Services,Washington,DC,3432,3674.0,97.1,94.5,4010240,7800000.0,21,34.0,7.0,14.2
+Divisions Maintenance Group,Business Products & Services,Newport,KY,3530,3677.0,93.0,94.4,118438044,262000000.0,126,324.0,5.0,17.2
+Shepherd Insurance,Insurance,Carmel,IN,4111,3683.0,71.0,94.2,16115055,45300000.0,124,344.0,6.0,23.0
+Confirmation.com,Financial Services,Brentwood,TN,3991,3692.0,75.0,93.7,11981682,36900000.0,34,205.0,10.0,25.2
+Pivot International,Engineering,Lenexa,KS,3265,3710.0,105.3,92.8,11950000,83100000.0,110,646.0,4.0,47.4
+W2O Group,Advertising & Marketing,San Francisco,CA,3466,3714.0,95.8,92.5,89099333,177600000.0,397,721.0,11.0,14.8
+EO Products,Consumer Products & Services,San Rafael,CA,4231,3722.0,67.1,92.1,14137205,47000000.0,45,137.0,8.0,27.2
+Equian,Health,Indianapolis,IN,4728,3727.0,51.0,91.7,52504000,369400000.0,160,1799.0,9.0,47.7
+Sendero,Business Products & Services,Dallas,TX,4012,3731.0,74.4,91.6,10007143,25700000.0,70,182.0,9.0,20.8
+Mobomo,IT System Development,Reston,VA,1057,3732.0,421.2,91.5,4000132,15400000.0,50,65.0,7.0,30.9
+Cooper's Hawk Winery & Restaurants,Food & Beverage,Countryside,IL,2004,3742.0,203.0,90.9,94427890,282300000.0,1976,4817.0,7.0,24.5
+Novus Architects,Construction,Mount Pleasant,SC,3354,3747.0,100.0,90.7,5447573,11600000.0,28,63.0,2.0,16.3
+Inspira Marketing,Advertising & Marketing,Norwalk,CT,3128,3750.0,112.8,90.6,15717549,70500000.0,79,334.0,7.0,35.0
+Primary Wave Media,Advertising & Marketing,Pleasantville,NY,2666,3754.0,140.7,90.3,3565000,8800000.0,19,34.0,5.0,19.8
+TGG Accounting,Financial Services,San Diego,CA,1951,3756.0,208.0,90.2,5216173,10100000.0,58,95.0,5.0,14.1
+iPower Technologies,IT Management,Boca Raton,FL,1914,3765.0,213.2,89.5,2302463,6800000.0,15,18.0,3.0,24.2
+Bigcommerce,Software,Austin,TX,1997,3777.0,203.6,89.0,23485961,94200000.0,243,606.0,6.0,32.0
+Tribal Tech,Government Services,Alexandria,VA,508,3783.0,930.7,88.7,3065261,16800000.0,31,91.0,6.0,40.5
+Infomatics,IT Management,Farmington Hills,MI,3358,3785.0,99.8,88.7,5723227,12500000.0,148,160.0,8.0,16.9
+General Informatics,IT Management,Baton Rouge,LA,4888,3787.0,46.1,88.6,6843490,12800000.0,34,70.0,6.0,13.3
+Sunset Transportation,Logistics & Transportation,St. Louis,MO,3585,3794.0,90.7,88.4,62605000,159500000.0,68,130.0,7.0,20.6
+Proactive Technologies,IT Management,New York,NY,4457,3799.0,59.3,88.2,4194000,11200000.0,25,46.0,7.0,21.7
+Proforma GPS Global Promotional Sourcing,Business Products & Services,Las Vegas,NV,2699,3801.0,139.0,88.2,7675000,12800000.0,8,12.0,4.0,10.8
+Spectrio,Advertising & Marketing,Oldsmar,FL,2634,3806.0,142.7,88.0,17762616,42400000.0,95,230.0,8.0,19.0
+ReSource Pro,Insurance,New York,NY,3122,3809.0,112.9,87.8,33583810,93200000.0,1469,3953.0,11.0,22.6
+Russell Cellular,Retail,Battlefield,MO,3429,3816.0,97.3,87.7,105984490,424400000.0,650,1868.0,9.0,32.0
+Coherent Solutions,Software,Minneapolis,MN,2334,3819.0,166.4,87.6,16994332,46400000.0,375,920.0,8.0,22.2
+Hanapin Marketing,Advertising & Marketing,Bloomington,IN,3370,3824.0,99.6,87.3,2533132,8600000.0,37,66.0,6.0,27.7
+UpClear,Software,New York,NY,1628,3828.0,261.6,87.1,2003900,6000000.0,12,33.0,6.0,24.5
+Tenon Tours,Travel & Hospitality,Wakefield,MA,2645,3835.0,141.7,86.9,2843038,7300000.0,16,23.0,5.0,20.8
+Schox Patent Group,Business Products & Services,San Francisco,CA,2504,3841.0,151.5,86.7,2844955,6400000.0,6,11.0,6.0,17.6
+Carahsoft Technology,Government Services,Reston,VA,3241,3847.0,106.7,86.5,1724988401,5400000000.0,418,1000.0,12.0,25.6
+memoryBlue,Business Products & Services,Vienna,VA,2335,3854.0,166.4,86.3,2979140,12000000.0,40,140.0,7.0,32.1
+CapTech Ventures,IT Management,Richmond,VA,3759,3858.0,83.7,86.1,78671000,192400000.0,411,1011.0,13.0,19.6
+Pedigree Technologies,Software,Fargo,ND,2238,3864.0,174.4,86.0,5777000,17400000.0,55,79.0,8.0,24.7
+Enstoa,Business Products & Services,New York,NY,2789,3867.0,132.7,85.9,8088027,23700000.0,42,97.0,8.0,24.0
+Profuse Solutions,IT Management,Walnut,CA,1403,3869.0,305.2,85.8,2264291,8200000.0,30,75.0,6.0,29.4
+DaySmart Software,Software,Wixom,MI,3400,3875.0,98.3,85.5,6670286,15500000.0,40,75.0,9.0,18.4
+g2 Revolution,Environmental Services,Lake in the Hills,IL,1747,3882.0,238.5,85.3,5629608,17600000.0,35,55.0,7.0,25.6
+Jade Global,IT Management,San Jose,CA,3756,3905.0,83.7,84.7,15035072,36500000.0,180,703.0,9.0,19.4
+Code42,Software,Minneapolis,MN,1306,3908.0,330.2,84.6,38220450,109700000.0,326,541.0,9.0,23.5
+Tusk Enterprises,Health,Arlington,TX,4656,3914.0,53.2,84.4,16555165,43100000.0,26,48.0,4.0,21.1
+SRS Distribution,Consumer Products & Services,McKinney,TX,2031,3915.0,199.2,84.4,850694867,2600000000.0,1172,3750.0,6.0,25.0
+KMS Technology,IT Management,Atlanta,GA,3437,3919.0,96.9,84.3,12752590,33000000.0,462,1002.0,6.0,20.9
+Leading EDJE,IT System Development,Galena,OH,3808,3927.0,81.9,84.1,3875000,8400000.0,30,70.0,8.0,16.7
+Intact Technology,IT Management,Greenbelt,MD,1701,3928.0,247.3,84.1,25829618,46100000.0,80,95.0,4.0,12.3
+The Clearing,Business Products & Services,Washington,DC,1340,3936.0,322.9,83.6,7684125,18500000.0,36,104.0,6.0,19.2
+IMS Technology Services,Business Products & Services,Garnet Valley,PA,4303,3941.0,64.7,83.4,16150180,38000000.0,69,112.0,7.0,18.7
+CQ fluency,Business Products & Services,Hackensack,NJ,3463,3947.0,95.8,83.1,4661593,12100000.0,16,50.0,6.0,21.0
+Burgos Group,Government Services,Albuquerque,NM,791,3950.0,576.6,82.8,5546546,21900000.0,35,130.0,6.0,31.6
+Conservice,Real Estate,Logan,UT,2392,3951.0,160.9,82.8,54558307,197200000.0,622,1777.0,12.0,29.3
+PowerDMS,Software,Orlando,FL,2778,3961.0,133.5,82.5,4880000,15300000.0,47,103.0,9.0,25.7
+US Freight,Logistics & Transportation,Rocky River,OH,1196,3986.0,366.6,81.6,12568794,30600000.0,15,20.0,4.0,19.5
+Kanda Software,Software,Newton,MA,459,3996.0,1035.4,81.2,5166000,11700000.0,400,600.0,4.0,17.8
+Access Information Management,IT Management,Livermore,MA,1763,4000.0,235.4,81.2,108048000,348100000.0,522,2144.0,11.0,26.4
+GetWireless,Telecommunications,Minnetonka,MN,2464,4010.0,155.2,81.0,36670296,67000000.0,21,40.0,9.0,12.8
+Clarity Partners,IT System Development,Chicago,IL,1655,4025.0,255.7,80.6,10192000,27700000.0,80,150.0,7.0,22.1
+ExIT Technologies,Computer Hardware,Naples,FL,3673,4031.0,87.4,80.4,3951207,6500000.0,9,17.0,2.0,10.5
+Jarrett Logistics Systems,Logistics & Transportation,Orrville,OH,4194,4032.0,68.4,80.3,38846595,119400000.0,44,131.0,14.0,25.2
+Vitality Medical,Health,Salt Lake City,UT,2146,4036.0,185.4,80.2,12509613,33800000.0,21,47.0,6.0,22.0
+Innovative Commercial Environments,Business Products & Services,San Diego,CA,3598,4041.0,90.2,80.1,3814734,10300000.0,8,22.0,6.0,22.0
+Xtivia,Business Products & Services,Colorado Springs,CO,4670,4060.0,52.7,79.4,23015000,50700000.0,120,324.0,2.0,17.1
+Stream Companies,Advertising & Marketing,Malvern,PA,3838,4062.0,80.8,79.3,30105541,77900000.0,92,298.0,12.0,20.9
+Cumberland Consulting Group,Health,Franklin,TN,2945,4070.0,122.6,78.8,40306000,110600000.0,213,469.0,11.0,22.4
+Isos Technology,IT Services,Tempe,AZ,2478,4078.0,154.1,78.4,2807967,7800000.0,19,27.0,5.0,22.7
+Sanity Solutions,Computer Hardware,Denver,CO,2345,4085.0,165.8,78.3,19145391,56200000.0,20,34.0,8.0,24.0
+Cloud for Good,IT Management,Memphis,NC,434,4097.0,1090.9,77.9,1953000,7800000.0,17,68.0,6.0,31.9
+Insight Resource Group,Advertising & Marketing,Orinda,CA,4428,4100.0,60.6,77.8,12849015,16800000.0,20,24.0,6.0,5.5
+Freddy's Frozen Custard,Food & Beverage,Wichita,KS,2111,4101.0,189.4,77.8,144949480,474700000.0,4056,13751.0,8.0,26.8
+Blue Corona,Advertising & Marketing,Gaithersburg,MD,1415,4111.0,302.5,77.5,3832666,9300000.0,28,65.0,8.0,19.4
+Vaco,Human Resources,Brentwood,TN,4871,4121.0,46.7,77.4,191389000,516800000.0,384,6294.0,13.0,22.0
+Inspired eLearning,Education,San Antonio,TX,3129,4123.0,112.8,77.3,5566000,14000000.0,40,103.0,7.0,20.3
+Element Three,Advertising & Marketing,Indianapolis,IN,1433,4125.0,297.8,77.2,3491616,11900000.0,29,65.0,6.0,27.8
+Pacific Western Painting,Construction,Vista,CA,1299,4131.0,332.4,76.9,2996222,5900000.0,35,48.0,6.0,14.5
+Atlanta Communities Real Estate Brokerage,Real Estate,Marietta,GA,1739,4135.0,239.9,76.8,25363660,65800000.0,499,1229.0,6.0,21.0
+Saturn Tech,IT System Development,Farmington,MI,3018,4136.0,118.3,76.8,2946119,7500000.0,70,110.0,7.0,20.5
+TRIOSE,Logistics & Transportation,Shillington,PA,1842,4139.0,223.1,76.7,23978203,66500000.0,39,92.0,7.0,22.6
+Centrify,Software,Santa Clara,CA,2899,4144.0,125.7,76.4,45324628,114600000.0,365,211.0,6.0,20.4
+Accelerated Claims,Financial Services,Kennesaw,GA,2841,4145.0,129.9,76.4,5417513,21300000.0,80,220.0,8.0,31.5
+The Cydio Group,Human Resources,San Diego,CA,3103,4152.0,114.0,76.1,3809509,18500000.0,41,115.0,6.0,37.2
+InterWorks,IT Management,Stillwater,OK,2657,4171.0,141.3,75.1,21279452,57300000.0,105,188.0,11.0,21.9
+Capstone Information Technologies,IT Management,Rochester,NY,3671,4175.0,87.5,75.0,2965583,6300000.0,19,40.0,4.0,16.3
+Hiatus Spa Retreat,Consumer Products & Services,Dallas,TX,2974,4179.0,120.8,74.9,4276894,9400000.0,98,211.0,7.0,17.1
+DRT Transportation,Logistics & Transportation,Lebanon,PA,1309,4180.0,329.7,74.9,24912093,67400000.0,25,56.0,7.0,22.0
+Capital Title of Texas,Real Estate,Plano,TX,4059,4187.0,73.0,74.7,36003000,105800000.0,279,604.0,7.0,24.1
+CivicPlus,Government Services,Manhattan,KS,3624,4188.0,89.0,74.6,18967560,36300000.0,94,324.0,9.0,13.9
+Saalex Solutions,Government Services,Camarillo,CA,816,4191.0,558.4,74.5,35495269,61800000.0,259,604.0,2.0,11.7
+Black Mountain Systems,Software,San Diego,CA,1234,4198.0,352.7,74.2,16187778,47200000.0,73,230.0,9.0,23.9
+B2Gnow,Software,Phoenix,AZ,3713,4199.0,85.6,74.2,3289288,11300000.0,21,60.0,7.0,28.0
+Torch Technologies,Government Services,Huntsville,AL,1921,4200.0,212.0,74.2,154729586,405400000.0,326,975.0,13.0,21.2
+Image Business Interiors,Business Products & Services,Virginia Beach,VA,3581,4202.0,90.8,74.1,6179304,15300000.0,12,21.0,7.0,19.9
+Listrak,Advertising & Marketing,Lititz,PA,2362,4204.0,164.3,74.0,19001329,60300000.0,118,300.0,6.0,26.0
+IT Direct,IT Services,West Hartford,CT,2757,4205.0,134.9,74.0,3276860,7200000.0,20,33.0,6.0,17.1
+US Med-Equip,Health,Houston,TX,4005,4207.0,74.6,73.9,21474914,46900000.0,105,205.0,7.0,16.9
+Ob Hospitalist Group,Health,Mauldin,SC,1745,4216.0,238.7,73.5,74542441,226800000.0,329,940.0,7.0,24.9
+TechCXO,Business Products & Services,Atlanta,GA,4361,4217.0,62.8,73.4,9315172,23600000.0,52,111.0,11.0,20.4
+Birds Barbershop,Consumer Products & Services,Austin,TX,4027,4218.0,73.9,73.4,4604761,9000000.0,115,210.0,9.0,14.3
+Jackrabbit Technologies,Software,Huntersville,NC,2516,4221.0,150.1,73.3,5314397,13500000.0,30,63.0,9.0,20.5
+Jonathan's Grille,Food & Beverage,Franklin,TN,3315,4223.0,102.0,73.3,8964172,24400000.0,228,400.0,7.0,22.2
+ApplicantPro,Human Resources,Eagle Mountain,UT,1649,4225.0,257.1,73.2,2809939,12300000.0,38,120.0,7.0,34.4
+DRT Strategies,Government Services,Arlington,VA,3452,4229.0,96.2,73.1,21843842,65600000.0,105,293.0,10.0,24.6
+Golftec,Consumer Products & Services,Centennial,CO,3799,4232.0,82.1,73.0,28037101,59500000.0,254,760.0,9.0,16.2
+nexVortex,Telecommunications,Herndon,FL,1730,4238.0,241.4,72.7,7129925,22500000.0,32,81.0,9.0,25.8
+Saxum,Advertising & Marketing,Oklahoma City,OK,2957,4246.0,122.0,72.6,5519983,12200000.0,35,46.0,9.0,17.2
+Integrity Services,Business Products & Services,Stoneham,MA,1759,4260.0,236.7,72.2,7462156,19300000.0,210,100.0,6.0,20.9
+Stone Resource Group,Human Resources,Roswell,GA,490,4262.0,968.9,72.2,8957333,22500000.0,93,190.0,6.0,20.2
+Midwest Prototyping,Manufacturing,Blue Mounds,WI,3724,4268.0,85.1,72.1,3347365,7800000.0,23,40.0,8.0,18.4
+ReEmployAbility,Insurance,Tampa,FL,4092,4280.0,71.8,71.6,2588830,7900000.0,30,84.0,6.0,25.0
+XeteX,Manufacturing,Minneapolis,MN,4743,4307.0,50.4,70.9,11404033,21900000.0,55,102.0,8.0,13.9
+Dynamit,IT System Development,Columbus,OH,1721,4308.0,243.7,70.9,4892438,15000000.0,43,120.0,6.0,25.1
+ExactCare Pharmacy,Health,Valley View,OH,594,4314.0,805.3,70.8,49607854,203400000.0,132,438.0,6.0,32.6
+Oxagile,Software,New York,NY,3655,4327.0,88.0,70.4,3685000,11600000.0,124,291.0,7.0,25.8
+VOX Network Solutions,Telecommunications,South San Francisco,CA,3321,4334.0,101.6,70.1,26087609,60300000.0,74,134.0,10.0,18.2
+G&A Partners,Human Resources,Houston,TX,3442,4337.0,96.5,70.0,805736000,2200000000.0,120,291.0,14.0,22.2
+Burnham Benefits Insurance Services,Insurance,Irvine,CA,4055,4340.0,73.0,69.9,13648400,36000000.0,56,89.0,7.0,21.4
+Covenant Eyes,Software,Owosso,MI,4283,4342.0,65.3,69.8,8916110,23000000.0,87,184.0,9.0,20.9
+Integrated Payroll Services,Financial Services,St. Louis,MO,3532,4343.0,93.0,69.8,3208402,8600000.0,21,42.0,7.0,21.8
+Compunnel Software Group,Human Resources,Plainsboro,NJ,3188,4345.0,109.6,69.6,63655013,191100000.0,330,2278.0,9.0,24.6
+Litigation Services,Business Products & Services,Las Vegas,NV,1526,4347.0,280.2,69.6,33583346,64500000.0,115,165.0,6.0,13.9
+The Rainmaker Group,Software,Alpharetta,GA,2745,4352.0,136.2,69.5,28023000,15000000.0,102,92.0,8.0,-11.7
+tap|QA,Software,St. Louis Park,MN,781,4358.0,581.9,69.3,7743350,20500000.0,77,170.0,5.0,21.5
+Consumer Cellular,Telecommunications,Portland,OR,2439,4366.0,157.2,69.0,353754232,1000000000.0,940,1866.0,11.0,23.1
+OneSource Virtual,Business Products & Services,Irving,TX,471,4367.0,999.5,69.0,36978000,123900000.0,373,885.0,7.0,27.4
+Milk + Honey,Consumer Products & Services,Austin,TX,3906,4370.0,78.4,68.9,8281083,19300000.0,172,320.0,10.0,18.4
+Seattle Coffee Gear,Retail,Lynnwood,WA,3353,4371.0,100.0,68.9,13090938,27800000.0,48,57.0,6.0,16.3
+PharmaLogics Recruiting,Human Resources,Quincy,MA,2077,4380.0,193.0,68.6,4133937,11400000.0,33,70.0,6.0,22.5
+GNT Solutions,IT Management,Sacramento,CA,2249,4386.0,173.9,68.5,2671472,5100000.0,10,20.0,3.0,13.8
+Professional Capital Services,Financial Services,Philadelphia,PA,4060,4387.0,73.0,68.5,8646753,19300000.0,50,102.0,12.0,17.4
+24Hr HomeCare,Health,El Segundo,CA,796,4388.0,573.3,68.4,29146106,79700000.0,71,210.0,7.0,22.3
+Faye Business Systems Group,Software,Woodland Hills,CA,3398,4391.0,98.4,68.3,2675815,8100000.0,19,23.0,6.0,24.8
+Lumark Technologies,Government Services,Fairfax,VA,3971,4393.0,75.9,68.3,2763034,10700000.0,26,70.0,5.0,31.1
+Coast Professional,Financial Services,West Monroe,NY,778,4395.0,584.6,68.3,38567736,83500000.0,270,639.0,6.0,16.7
+MotherG,IT Management,Itasca,IL,4451,4399.0,59.5,68.1,3163463,5700000.0,20,29.0,3.0,12.5
+Blue Microphones,Consumer Products & Services,Westlake Village,CA,3514,4401.0,93.8,68.0,25123000,63000000.0,40,68.0,10.0,20.2
+V-Soft Consulting Group,IT Management,Louisville,KY,3862,4405.0,79.9,68.0,42819953,120100000.0,375,993.0,12.0,22.9
+First Flight Solutions,Logistics & Transportation,Emerald Isle,NC,699,4411.0,649.0,67.7,4269742,11900000.0,1,1.0,6.0,22.8
+Dane Street,Health,Boston,MA,686,4418.0,659.7,67.5,13468337,48800000.0,90,210.0,7.0,29.4
+Nightlight Pediatric Urgent Care,Health,Sugar Land,TX,3407,4419.0,97.9,67.4,3484346,9900000.0,34,135.0,6.0,23.2
+iVision,IT Management,Atlanta,GA,3120,4420.0,113.0,67.4,34041173,66000000.0,90,127.0,9.0,14.2
+Walker Elliott,Human Resources,Houston,TX,3847,4424.0,80.2,67.4,2955276,3600000.0,21,20.0,4.0,4.0
+VDart,IT Management,Alpharetta,GA,1729,4428.0,241.8,67.3,31893333,132900000.0,231,753.0,7.0,33.0
+Impact Advisors,Health,Naperville,IL,2064,4434.0,194.6,67.1,54649000,84800000.0,158,223.0,5.0,9.2
+Exclusive Concepts,Advertising & Marketing,Burlington,MA,4347,4438.0,63.3,67.0,4860000,10900000.0,30,70.0,9.0,17.5
+Adler Windows,Construction,Jamaica,NY,3297,4439.0,102.9,67.0,7899903,25700000.0,52,105.0,6.0,26.6
+Resonate,Software,Reston,VA,1611,4443.0,264.6,66.8,19196785,43100000.0,93,101.0,7.0,17.6
+JMJS,Business Products & Services,Smock,PA,2062,4450.0,194.9,66.8,28610790,70700000.0,30,86.0,6.0,19.8
+Taradel,Advertising & Marketing,Glen Allen,VA,2480,4451.0,153.9,66.7,6795205,18100000.0,18,31.0,12.0,21.6
+Momentum Consulting,IT Management,Miami Lakes,FL,4169,4458.0,69.1,66.5,15271605,29300000.0,101,165.0,4.0,13.9
+ConnectYourCare,Health,Hunt Valley,MD,3735,4459.0,84.7,66.5,18588000,53100000.0,95,429.0,5.0,23.4
+MedRisk,Health,King of Prussia,PA,4345,4462.0,63.3,66.4,225130240,570000000.0,396,841.0,13.0,20.4
+TENS Rx,Health,Montgomery,TX,4488,4467.0,58.0,66.3,2145539,3600000.0,12,25.0,2.0,10.9
+Demco Automation,Manufacturing,Quakertown,PA,4985,4469.0,42.9,66.2,2245082,3600000.0,11,20.0,2.0,9.9
+Envision Capital Group,Financial Services,Laguna Hills,CA,4916,4481.0,45.1,65.9,12071976,32700000.0,19,26.0,5.0,22.1
+Pro Mach,Manufacturing,Loveland,KY,4058,4493.0,73.0,65.6,389440000,872100000.0,1429,3087.0,9.0,17.5
+Avian,Government Services,Lexington Park,MD,2630,4496.0,142.8,65.5,16501411,43400000.0,109,252.0,10.0,21.3
+Sriven Technologies,IT System Development,Herndon,VA,1084,4502.0,411.4,65.4,3012803,8400000.0,63,72.0,6.0,22.8
+Ameex Technologies,Software,Schaumburg,IL,370,4507.0,1287.8,65.3,3289000,8600000.0,160,428.0,6.0,21.2
+Guaranteed Rate,Financial Services,Chicago,IL,2457,4513.0,155.6,65.2,455079000,802600000.0,2690,4642.0,10.0,12.0
+Supreme Resources,Business Products & Services,Suwanee,GA,4839,4516.0,47.7,65.0,31877077,99300000.0,15,22.0,7.0,25.5
+PMA,Advertising & Marketing,Cerritos,CA,4793,4525.0,48.9,64.9,8686000,10300000.0,21,24.0,2.0,3.5
+Involta,IT Management,Cedar Rapids,IA,2437,4536.0,157.2,64.6,21139211,52600000.0,53,245.0,7.0,20.0
+3Pillar Global,Software,Fairfax,VA,3215,4539.0,108.0,64.5,26026550,53700000.0,595,899.0,8.0,15.6
+Convergence Consulting Group,IT Management,Tampa,FL,1818,4544.0,227.2,64.3,7469428,17700000.0,39,89.0,10.0,18.8
+Educere,Education,Ambler,PA,3619,4553.0,89.2,64.1,3736214,8100000.0,16,31.0,8.0,16.7
+Silicus Technologies,IT System Development,Houston,TX,1798,4554.0,230.1,64.1,6061611,22100000.0,250,700.0,7.0,29.5
+Netsertive,Advertising & Marketing,Morrisville,NC,482,4560.0,986.2,63.9,19587732,74100000.0,134,184.0,7.0,30.5
+Force Marketing,Advertising & Marketing,Atlanta,GA,3220,4565.0,107.8,63.8,23745823,54600000.0,64,105.0,10.0,18.1
+Customized Energy Solutions,Energy,Philadelphia,PA,3963,4570.0,76.2,63.7,23525000,42600000.0,94,170.0,11.0,12.6
+PrimeRevenue,Financial Services,Atlanta,GA,4379,4574.0,62.3,63.6,13240000,34300000.0,77,151.0,8.0,21.0
+Oasis Turf & Tree,Consumer Products & Services,Loveland,OH,3243,4581.0,106.7,63.3,2593874,5700000.0,31,48.0,5.0,17.1
+eTek IT Services,IT Management,Schaumburg,IL,3509,4583.0,93.9,63.3,3772264,10300000.0,25,80.0,5.0,22.2
+Kidd Roofing,Construction,Austin,TX,2040,4586.0,198.2,63.2,19961000,41600000.0,81,100.0,6.0,15.8
+Liquid Web,IT Management,Lansing,MI,3893,4596.0,79.0,63.0,57110703,113400000.0,400,531.0,12.0,14.7
+Sustainable Supply,Retail,Broomfield,CO,785,4597.0,580.2,63.0,5884000,20200000.0,11,21.0,7.0,28.0
+EmpireWorks,Construction,Irvine,CA,3357,4598.0,99.8,62.9,29854306,52000000.0,1059,500.0,4.0,11.7
+Highwire Public Relations,Advertising & Marketing,San Francisco,CA,1761,4600.0,235.7,62.8,6022256,17900000.0,36,74.0,7.0,24.3
+IntraLogic Solutions,Security,Massapequa,NY,1944,4604.0,208.7,62.8,6188003,14100000.0,41,60.0,7.0,17.9
+Total Quality Logistics,Logistics & Transportation,Cincinnati,OH,3131,4609.0,112.7,62.6,1621033577,3600000000.0,2363,5493.0,14.0,17.3
+LINX,Telecommunications,Denver,CO,4256,4611.0,66.1,62.6,50560713,98900000.0,265,482.0,8.0,14.4
+SwipeClock,Software,South Jordan,UT,3996,4619.0,74.9,62.4,7676596,18700000.0,38,97.0,9.0,19.5
+Ntiva,IT Management,McLean,VA,4573,4620.0,55.7,62.4,14168992,25300000.0,76,106.0,6.0,12.3
+Quantum Workplace,Software,Omaha,NE,3200,4622.0,109.0,62.4,3669750,10900000.0,27,66.0,6.0,24.3
+Americollect,Health,Manitowoc,WI,3709,4627.0,85.8,62.1,11053659,28400000.0,162,275.0,11.0,20.8
+Innovative Office Solutions,Business Products & Services,Burnsville,MN,4308,4640.0,64.6,61.8,54054620,141400000.0,125,285.0,11.0,21.2
+Neogov,Human Resources,El Segundo,CA,4160,4653.0,69.4,61.5,15596678,37700000.0,102,180.0,8.0,19.3
+TechMD,IT Management,Costa Mesa,CA,2171,4657.0,183.0,61.4,4049928,7700000.0,36,61.0,6.0,13.7
+Dynamic Systems,IT Management,El Segundo,CA,4614,4658.0,54.4,61.4,81131000,201100000.0,48,67.0,9.0,19.9
+Clickstop,Consumer Products & Services,Urbana,IA,3254,4661.0,106.1,61.3,16597325,45800000.0,104,173.0,10.0,22.5
+Internet Creations,Software,Hamilton,NJ,1287,4663.0,336.0,61.2,2815056,7900000.0,23,45.0,7.0,22.9
+InfoWorks,IT System Development,Nashville,TN,4436,4666.0,60.1,61.1,11025000,22900000.0,74,109.0,4.0,15.7
+Consolidated Asset Recovery Systems,Software,Raleigh,NC,3403,4674.0,98.1,60.9,15014369,53000000.0,42,90.0,8.0,28.7
+BravoTECH,Human Resources,Dallas,TX,3836,4678.0,81.0,60.8,10613821,22800000.0,129,188.0,3.0,16.5
+LSS Life Safety Services,Business Products & Services,Louisville,KY,4912,4691.0,45.2,60.5,5439623,11700000.0,70,100.0,10.0,16.6
+Underground Printing,Consumer Products & Services,Ann Arbor,MI,4526,4694.0,57.0,60.5,13757271,28400000.0,120,307.0,9.0,15.6
+MD Connect,Advertising & Marketing,Wellesley,MA,3286,4710.0,103.8,60.1,3302104,7200000.0,14,22.0,7.0,16.9
+Nassau National Cable,Business Products & Services,Great Neck,NY,1606,4714.0,265.1,60.0,4170588,11000000.0,7,30.0,6.0,21.4
+Zipline Logistics,Logistics & Transportation,Columbus,OH,1342,4727.0,322.1,59.7,18042689,49000000.0,28,60.0,8.0,22.1
+Redtail Technology,Software,Gold River,CA,2980,4733.0,120.6,59.5,7311661,17600000.0,52,105.0,7.0,19.2
+Nexus Systems,Software,Falls Church,VA,3682,4745.0,87.2,59.3,5662290,13300000.0,52,101.0,7.0,18.6
+Program Productions,Media,Lombard,IL,3894,4746.0,78.9,59.3,27813130,61400000.0,4400,5799.0,13.0,17.2
+Employment Screening Services,Human Resources,Birmingham,AL,3668,4763.0,87.5,59.0,12393822,29500000.0,58,137.0,13.0,18.9
+Certified Languages International,Business Products & Services,Portland,OR,3676,4764.0,87.3,58.9,18425689,41400000.0,67,170.0,8.0,17.6
+Clarity Software Solutions,Software,Madison,CT,1079,4769.0,413.8,58.9,37616852,101100000.0,62,136.0,7.0,21.9
+Eating Recovery Center,Health,Denver,CO,1545,4771.0,275.3,58.9,52558545,183300000.0,539,1300.0,5.0,28.4
+Coury & Buehler Physical Therapy,Health,Brea,CA,4384,4773.0,62.1,58.7,6591531,13100000.0,96,180.0,6.0,14.7
+The Kingston Group,Construction,Nashville,TN,1908,4777.0,215.2,58.7,3958661,5900000.0,10,13.0,4.0,8.3
+GXA Network Solutions,IT Services,Richardson,TX,2403,4784.0,160.4,58.4,2247656,4500000.0,15,16.0,2.0,14.9
+Davenport Group,IT Management,St. Paul,MN,2773,4788.0,133.7,58.3,8980334,35200000.0,16,46.0,7.0,31.4
+Pariveda Solutions,IT Management,Dallas,TX,3414,4791.0,97.7,58.2,57653000,134800000.0,315,646.0,11.0,18.5
+Neta Scientific,Business Products & Services,Hainesport,NJ,4180,4795.0,68.8,58.2,34089912,76600000.0,29,44.0,4.0,17.6
+Tapestry Technologies,Security,Chambersburg,PA,2277,4804.0,171.1,58.0,6449942,25400000.0,48,114.0,6.0,31.5
+ipipeline,Software,Exton,PA,3360,4805.0,99.7,58.0,60663000,157500000.0,400,700.0,11.0,21.0
+7Summits,Business Products & Services,Milwaukee,WI,639,4806.0,727.6,57.9,10248000,21500000.0,58,106.0,4.0,16.0
+3 Blind Mice Window Coverings,Business Products & Services,San Diego,CA,4184,4808.0,68.6,57.9,2462355,8000000.0,20,49.0,5.0,26.6
+Infutor Data Solutions,Business Products & Services,Plainfield,IL,4783,4809.0,49.2,57.9,17174743,32300000.0,60,124.0,4.0,13.5
+Abacus Wealth Partners,Financial Services,Santa Monica,CA,4335,4813.0,63.5,57.8,7424992,17000000.0,30,57.0,8.0,18.0
+Arora Engineers,Engineering,Chadds Ford,PA,4235,4821.0,67.0,57.6,12339000,26500000.0,75,160.0,11.0,16.5
+Cassaday & Company,Financial Services,McLean,VA,4321,4823.0,64.3,57.5,8935245,19700000.0,31,49.0,8.0,17.1
+Acquia,Software,Burlington,MA,650,4836.0,707.5,57.1,71007265,201100000.0,434,880.0,8.0,23.1
+Full Visibility,Government Services,Vienna,VA,4245,4840.0,66.5,57.0,2721000,8300000.0,25,49.0,6.0,25.0
+Equus Software,Software,Denver,CO,3802,4850.0,82.0,56.8,12035000,30400000.0,47,178.0,10.0,20.4
+pMD,Health,San Francisco,CA,2661,4851.0,141.2,56.8,3760957,10000000.0,13,28.0,8.0,21.6
+Nina Hale,Advertising & Marketing,Minneapolis,MN,2405,4852.0,159.9,56.8,4809425,12200000.0,32,85.0,7.0,20.5
+Dobi & Associates,Business Products & Services,San DIego,CA,3794,4860.0,82.2,56.7,12541082,19900000.0,8,7.0,4.0,9.7
+W. L. French Excavating,Construction,North Billerica,MA,2520,4862.0,149.9,56.6,42438933,101400000.0,110,185.0,6.0,19.0
+Senior1Care,Health,South Bend,IN,2510,4872.0,150.6,56.2,3311000,7900000.0,130,275.0,7.0,19.0
+Sovereign Lending Group,Financial Services,Irvine,CA,824,4876.0,552.2,56.1,6571994,19200000.0,33,83.0,7.0,23.9
+Reliant Foodservice,Food & Beverage,Temecula,CA,2044,4884.0,197.8,55.8,16936309,42500000.0,26,69.0,8.0,20.2
+ShipOffers,Health,Centennial,CO,2867,4893.0,128.2,55.5,4112064,12600000.0,14,30.0,6.0,25.1
+Gen3 Marketing,Advertising & Marketing,Blue Bell,PA,2791,4894.0,132.5,55.5,5459136,10200000.0,22,52.0,4.0,13.3
+Horizontal Integration,IT Management,Minnetonka,MN,1456,4898.0,293.7,55.4,44388686,101600000.0,372,710.0,11.0,18.0
+MicroSystems Automation Group,Government Services,Falls Church,VA,1803,4901.0,229.1,55.3,20566416,36600000.0,144,235.0,8.0,12.2
+Hirewell,Human Resources,Chicago,IL,4516,4902.0,57.2,55.3,5599000,15200000.0,45,110.0,7.0,22.1
+Meathead Movers,Logistics & Transportation,San Luis Obispo,CA,2781,4903.0,133.3,55.2,7245632,20300000.0,200,744.0,8.0,22.9
+(Add)ventures,Advertising & Marketing,Providence,RI,4266,4908.0,65.7,55.0,9695342,15200000.0,42,62.0,11.0,9.4
+Frontier Truck Gear,Manufacturing,Center Point,TX,4860,4910.0,47.0,55.0,5861201,7500000.0,61,64.0,4.0,5.1
+Avenue Link,Advertising & Marketing,Overland PArk,KS,153,4920.0,2564.5,54.7,6360103,13200000.0,11,23.0,6.0,15.7
+WTWH Media,Media,Cleveland,OH,4553,4922.0,56.3,54.6,6660230,16600000.0,35,71.0,9.0,20.0
+LaSalle Network,Human Resources,Chicago,IL,4019,4933.0,74.2,54.1,35579392,74500000.0,76,218.0,12.0,15.9
+SofterWare,Software,Horsham,PA,4624,4935.0,54.1,54.1,33215000,73000000.0,143,220.0,11.0,17.1
+Green Lawn Fertilizing,Consumer Products & Services,West Chester,PA,4330,4942.0,63.7,53.8,8184386,15700000.0,72,132.0,7.0,13.9
+Audacious Inquiry,Software,Baltimore,MD,1490,4947.0,287.5,53.6,9930000,22500000.0,36,125.0,9.0,17.8
+USA Financial,Financial Services,Ada,MI,4756,4948.0,50.1,53.5,24878617,54900000.0,43,64.0,5.0,17.2
+Bankers Healthcare Group,Financial Services,Southwest Ranches,FL,2946,4949.0,122.5,53.5,61332289,220300000.0,177,400.0,13.0,29.1
+Data Path,IT Services,Modesto,CA,2436,4953.0,157.3,53.4,5708690,9400000.0,35,52.0,7.0,10.5
+Proliant,Business Products & Services,Atlanta,GA,4410,4957.0,61.1,53.3,13401000,35700000.0,101,240.0,8.0,21.6
+American Specialty Health,Health,San Diego,IN,4641,4958.0,53.6,53.3,239180984,509900000.0,1168,1422.0,10.0,16.3
+WorkForce Software,Software,Livonia,MI,2253,4964.0,173.5,53.2,50366838,100900000.0,425,550.0,10.0,14.9
+Drexel Building Supply,Construction,Campbellsport,WI,4365,4966.0,62.7,53.1,86791000,180500000.0,200,379.0,9.0,15.8
+Pacific Dental Services,Health,Irvine,CA,3903,4974.0,78.5,52.9,627767000,1400000000.0,5010,10392.0,14.0,17.4
+Jackson Design and Remodeling,Construction,San Diego,CA,3746,4979.0,84.3,52.8,10025896,21300000.0,40,62.0,10.0,16.3
+Dymax,Manufacturing,Torrington,CT,4974,4984.0,43.3,52.6,66022420,104000000.0,254,377.0,9.0,9.5
+Smart Energy Today,Energy,Olympia,WA,336,4990.0,1381.4,52.5,5091839,20500000.0,65,65.0,6.0,32.1

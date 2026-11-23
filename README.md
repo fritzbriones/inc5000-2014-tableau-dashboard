@@ -1,81 +1,96 @@
-# Inc. 5000 (2014): Growth & Revenue Dashboard
+# Inc. 5000 (2014), Five Years Later: Is Fast Growth a One-Time Burst?
 
-A Tableau dashboard of the 2014 **Inc. 5000**, Inc. magazine's list of the
-5,000 fastest-growing private U.S. companies, ranked by 3-year revenue growth from 2010 to 2013.
-A reproducible Python companion (`insights.py`) checks the dashboard's numbers and adds the
-views the dashboard is missing.
+A Python and Jupyter analysis of all **5,000 companies** on the 2014 Inc. 5000 (the fastest-growing private U.S. companies, ranked by revenue growth from 2010 to 2013). It then follows them to the **2019 list** to see which companies kept growing.
 
-![Dashboard](INC%205000%202014%20Tableau%20Dashboard.png)
+📓 **[Open the notebook](notebooks/inc5000_2014_analysis.ipynb)**. It runs top to bottom, and GitHub displays it with every chart and table.
+
+![Return rate by industry](images/repeat_rate_by_industry.png)
+
+## Business question
+
+A company that grew fast once is interesting. A company that **keeps** growing is worth far more to an investor, lender, sales team or job seeker. This project asks:
+
+1. Where were the 2014 fast growers?
+2. **Which of them were still on the list five years later, and what predicted it?**
+3. How did the list itself change between 2014 and 2019?
 
 ## Key findings
 
-- **5,000 companies with $215.3B of combined 2013 revenue.** The median company had $10.7M of revenue and 50 employees.
-- **"Average growth 516%" is misleading.** Growth is extremely skewed: the **median company grew 152%**. Fuhu alone (+158,957%) lifts the mean by 32 points. The minimum to make the list was 42%.
-- **Industry rankings flip when using the median.** By average, Consumer Products & Services looks fastest (1,332%), but that comes from Fuhu; its typical company grew 199%. By median, **Media (236%), Government Services (219%) and Retail (215%)** lead.
-- **Geography is concentrated.** California (694) and Texas (404) hold 22% of the list. Wyoming has no companies on it.
-- **Largest groups:** IT Services (733 companies), Advertising & Marketing (453) and Business Products & Services (435).
+1. **Only 489 of the 5,000 companies (9.8%) were back on the list in 2019.** Fast growth rarely repeats.
+2. **The most extreme growers returned least often:** 6.8% of the Top 500, versus 10.1% for the rest (p = 0.022).
+3. **Track record matters more than one big spike.** Each earlier appearance on the list raised the odds of returning by about 10%, while a company 10× larger had 28% lower odds (both p = 0.001). Once those are accounted for, the 2014 growth rate itself didn't predict a return.
+4. **Industry matters most** (p < 0.001):
+   - Logistics & Transportation companies returned most often (18%).
+   - Retail (2%), Manufacturing (4%) and Energy (4%) rarely returned.
+   - **Retail is the sharpest reversal:** it was one of the fastest-growing industries in 2014 (median 215%) but had the lowest return rate.
+5. **The companies that came back tripled their revenue** between 2013 and 2018 (median 3.0×, about 24% a year), and their headcount grew 2.4×.
+6. **The list's mix shifted between 2014 and 2019.** IT fell from 15% to 9% of companies, while Construction and Software gained the most.
+7. **Averages mislead.** The 2014 list's typical company grew 152%, but the average was 516% because Fuhu grew 158,957%. Every comparison here uses medians.
 
-**Takeaway for an investor or analyst:** the headline growth rates describe a few
-outliers. To compare industries, use the median, and read growth together with company size.
+![What predicted a return](images/repeat_rate_drivers.png)
+![Repeat companies' revenue](images/repeat_revenue_2013_vs_2018.png)
+![Industry share 2014 vs 2019](images/industry_share_2014_vs_2019.png)
 
-## Companion charts (`insights.py`)
+<details><summary>More charts: the 2014 list</summary>
 
-![Industry growth: mean vs median](industry_growth_mean_vs_median.png)
-![Top 10 by growth](top10_growth.png)
-![Companies by state](companies_by_state.png)
+![Top 20](images/top20_growth.png)
+![Industries: average vs median](images/industries_mean_vs_median.png)
+![States and cities](images/states_cities.png)
+![Growth by size](images/growth_by_size.png)
 
-## Dashboard accuracy check
+</details>
 
-| Dashboard element | Check | Status |
-|---|---|---|
-| KPI: average growth 516.4 | Matches data (mean). Median is 151.7. | ✅ correct, ⚠️ misleading alone |
-| KPI: sum of revenue 215,290,911,811 | Matches data (2013 revenue) | ✅ |
-| KPI: 5,000 companies | Matches | ✅ |
-| KPI: average workers 209.0 | Matches (median 50) | ✅ |
-| Map labels (e.g. CA 694, MN 94, MA 174) | Match company counts by state | ✅ |
-| "Average Growth by Industry" bars | Means are skewed by single companies | ⚠️ switch to median |
-| "Top 10 Companies by Growth" table | Shows "Abc" placeholders, sorted A–Z, no values | ❌ needs fixing |
-| Industry bar charts | Only 7 of 25 industries visible in the image (scroll) | ⚠️ |
+## Data sources and verification
 
-### How to fix the dashboard in Tableau
-
-1. **Top 10 table:** drag `Growth` onto *Text* (replacing the "Abc" placeholder), add `Rank` to Rows, sort by `Rank` ascending, and filter `Rank <= 10`.
-2. **Average growth KPI and industry chart:** change the aggregation of `Growth` from *Average* to *Median* (right-click → Measure → Median), or show both.
-3. **Industry charts:** use *Fit → Entire View* so all 25 industries are visible in the exported image.
-4. **Map:** add a legend title that says the colour is revenue and the label is company count.
-
-## Data source and verification
-
-- `Data Set- Inc5000 Company List_2014.csv`: 5,000 rows, scraped from Inc.'s public list
-  (`inc.com/inc5000list/json/inc5000_2014.json`, via the import.io tool; the `_input`/`_widgetName`/… columns are scraper metadata).
-- Checked against 2014 press coverage: Fuhu was No. 1 with 158,957% growth and $195.6M revenue, and Quest Nutrition, Reliant Asset Management, Superfish and Acacia Communications were Nos. 2–5 with matching growth and revenue. Minnesota's 94 companies also match local coverage.
-- Ranks follow growth exactly, apart from differences under 0.01 points (Inc. ranks on unrounded growth).
-- `growth` = % revenue growth 2010→2013; `revenue` = 2013 revenue (USD).
-- 13 companies report 0 workers, and 58 have no metro area. Both are left as published.
-- The data belong to Inc. and remain subject to their terms.
-
-## Files
-
-| File | Description |
+| File | Source |
 |---|---|
-| `2014 inc 5000 growth vs Industry.twb` | Tableau workbook |
-| `Data Set- Inc5000 Company List_2014.csv` | Source data (unchanged) |
-| `INC 5000 2014 Tableau Dashboard.png` | Dashboard snapshot |
-| `insights.py` | Reproducible checks + companion charts → `kpi.json`, `industry_summary.csv`, `state_summary.csv` |
+| `data/raw/Inc5000 Company List_2014.csv` | The full 2014 list scraped from Inc.'s public list (`inc.com/inc5000list/json/inc5000_2014.json`); the `_`-prefixed columns are scraper metadata |
+| `data/raw/INC 5000 Companies 2019.csv` | Public dataset from [Maven Analytics](https://mavenanalytics.io/data-playground/inc-5000-companies) / [Kaggle](https://www.kaggle.com/datasets/mysarahmadbhat/inc-5000-companies), verified in [inc5000-2019-growth-analysis](https://github.com/fritzbriones/inc5000-2019-growth-analysis) |
 
-### Open the workbook
+The 2014 file is checked against figures Inc. and the press published in August 2014:
 
-Download the `.twb` and the CSV into the same folder and open the `.twb`. The workbook was saved
-with the data at `C:/Users/ASUS/Downloads`, so if Tableau says the data source is missing, click
-**Edit Connection** and select the CSV.
+| Published | This file |
+|---|---|
+| No. 1 Fuhu: 158,957% growth, $195.6M revenue | ✅ exact |
+| No. 2 Quest Nutrition: 57,348% | ✅ exact |
+| Nos. 6–11 (Provider Power, Crescendo Bioscience, Plexus, Vacasa, Go Energies, Minute Key) | ✅ growth and revenue match |
+| Average growth 516% | 516.4% ✅ |
+| Top 500 cut-off 942% | 942.3% ✅ |
+| Top 500: median growth 1,828%, revenue $15.2B | 1,827.6%, $15.2B ✅ |
+| Minnesota: 94 companies | 94 ✅ |
+| Cities: Chicago 95, Atlanta 94, San Diego 80 | ✅ exact |
+| Aggregate revenue $211B | $215.3B (2% higher, likely later revisions; every other figure matches) |
 
-### Run the checks
+**How 2014 and 2019 companies are matched:** by company name with case, spaces and punctuation removed. Each match is then **validated**: a genuine repeat must have more list appearances in 2019 than in 2014. This rejected 7 of 496 name matches, leaving 489.
+
+## What's in the repo
+
+```text
+data/raw/                                  original 2014 and 2019 files (unchanged)
+notebooks/inc5000_2014_analysis.ipynb      the full analysis
+images/                                    charts (written by the notebook)
+output/repeat_growers_2014_2019.csv        the 489 repeat companies, with 2014 and 2019 figures
+output/repeat_logit_odds_ratios.csv        regression results
+output/industry_share_2014_vs_2019.csv, industry_summary_2014.csv, state_summary_2014.csv
+archive/tableau/                           the original Tableau workbook and dashboard image
+```
+
+## Run it
 
 ```bash
 pip install -r requirements.txt
-python insights.py
+jupyter notebook notebooks/inc5000_2014_analysis.ipynb   # then Run All
 ```
 
-## License
+## Limitations
 
-The workbook, code and documentation are MIT-licensed (see `LICENSE`). The Inc. 5000 data belong to Inc.
+- **Not returning isn't failing.** A company can drop off because it was acquired, went public, stopped applying, was renamed or simply grew less than the cut-off.
+- **Name matching misses renamed companies,** so 489 is a lower bound.
+- **Repeat companies are selected on success,** so their growth isn't typical of all 2014 companies.
+- **The regression explains little of the variation** (pseudo R² 0.006). The factors shift the odds, but most of what decides a return isn't in the data.
+- **The Inc. 5000 is not a random sample** of U.S. businesses.
+- **Industry labels changed:** 2019 splits IT into three categories, which are combined here for comparison.
+
+## Disclaimer
+
+This is an educational project. All company data, rankings and methodology belong to Inc. This project is not affiliated with, endorsed by or sponsored by Inc. Code is MIT-licensed (see `LICENSE`).
